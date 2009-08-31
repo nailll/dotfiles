@@ -1,0 +1,505 @@
+!-- Font Settings
+Xft.antialias: 	true
+Xft.dpi:    	96
+Xft.hinting:    1
+Xft.hintstyle:  hintslight
+Xft.rgba:   	rgb
+!Xft.lcdfilter:	lcddefault
+
+xcalendar*firstDay:	1
+xcalendar*markHoliday:	false
+
+!-- Cursor Settings
+Xcursor.theme: current
+Xcursor.size: 18
+
+
+!-------------------------------------------------------------------------------
+!
+!
+!      A T E R M - Setting
+!
+!
+Aterm*background:	#000000
+Aterm*foreground:	#ffffff
+Aterm*transparent:	true
+Aterm*shading:		20
+Aterm*cursorColor:	#d8d8d8
+Aterm*scrollbars:	false
+Aterm*saveLines:	2000
+Aterm*tinting:		gray
+Aterm*scrollBar:	false
+!Aterm*scrollBar_right:	true
+Aterm*transpscrollbar:	true
+Aterm*borderwidth:	0
+Aterm*font:		-lfp-gamow-medium-r-normal-*-*-90-*-*-c-*-iso8859-5
+Aterm*geometry:		80x25
+Aterm*fading:		70
+
+!colors
+
+!black
+Aterm*color0:		#333333
+Aterm*color8:		#686868
+!red
+Aterm*color1:		#CA5E5E
+Aterm*color9:		#FF595D
+!green
+Aterm*color2:		#ABCB8D
+Aterm*color10:		#AFD78A
+!yellow
+Aterm*color3:		#C48D62
+Aterm*color11:		#E0A765
+!blue
+Aterm*color4:		#8CA0B0
+Aterm*color12:		#3D6A82
+!magenta
+Aterm*color5:		#CC98E0
+Aterm*color13:		#E1A2DC
+!cyan
+Aterm*color6:		#44CACF
+Aterm*color14:		#6CBFC4
+!white
+Aterm*color7:		#E7E6DD
+Aterm*color15:		#F0EFE7
+
+!-------------------------------------------------------------------------------
+!
+!	X T E R M - Setting
+!
+!
+XTerm*underLine:	off
+XTerm*colorMode:	on
+XTerm*colorBD:		lightyellow
+XTerm*colorBDMode:	off
+XTerm*colorUL:		yellow
+XTerm*colorULMode:	on
+XTerm*dynamicColors:	off
+XTerm*highlightSelection:true
+!XTerm*font:		-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso10646-1
+XTerm*background:	#000000
+XTerm*foreground:	#7f7f7f
+XTerm*eightBitInput:	false
+XTerm*metaSendsEscape:	true
+
+
+!colors
+
+!black
+XTerm*color0:		#000000
+XTerm*color8:		#666666
+!red
+XTerm*color1:		#9e1828
+XTerm*color9:		#cf6171
+!green
+XTerm*color2:		#aece92
+XTerm*color10:		#c5f779
+!yellow
+XTerm*color3:		#968a38
+XTerm*color11:		#fff796
+!blue
+XTerm*color4:		#414171
+XTerm*color12:		#4186be
+!magenta
+XTerm*color5:		#96c359
+XTerm*color13:		#cf9ebe
+!cyan
+XTerm*color6:		#418179
+XTerm*color14:		#71bebe
+!white
+XTerm*color7:		#bebebe
+XTerm*color15:		#ffffff
+
+!-------------------------------------------------------------------------------
+!
+!	U R X V T - Setting
+!
+!
+URxvt*geometry:         	90x25
+URxvt*background:       	#272521
+URxvt*foreground:       	#ffffff
+URxvt*inheritPixmap:    	false
+URxvt*reverseVideo:			false
+URxvt*tintColor:        	#dfdfdf
+URxvt*shading:	        	20		!trans=100, 0=opaque    
+URxvt*fading:	        	10		!term unfocus      
+!URxvt*perl-ext-common: 	default,tabbed
+
+!URxvt*font:			xft:andale mono:pixelsize=11
+!URxvt*font:			-*-terminus-medium-r-normal-*-14-*-*-*-*-*-iso10646-1
+!URxvt*font:  			xft:matto:antialias=true:size=8
+!URxvt*font:			xft:Dejavu Sans mono:pixelsize=12
+URxvt*font:				xft:Terminus:size=8
+URxvt*scrollBar:		false
+URxvt*scrollBar_floating:	true
+URxvt*scrollBar_right:		true
+URxvt*scrollColor:		black
+URxvt*saveLines:		5500
+!URxvt*termName:		Xterm
+URxvt*cursorColor:		#d8d8d8
+URxvt*colorBD:			lightyellow
+URxvt*colorUL:			white
+URxvt*eightBitInput:		false
+!URxvt*metaSendsEscape:		true
+
+
+!colors
+
+!black
+URxvt*color0:		#000000
+URxvt*color8:		#666666
+!red
+URxvt*color1:		#9e1828
+URxvt*color9:		#cf6171
+!green
+URxvt*color2:		#aece92
+URxvt*color10:		#c5f779
+!yellow
+URxvt*color3:		#968a38
+URxvt*color11:		#fff796
+!blue
+URxvt*color4:		#414171
+URxvt*color12:		#4186be
+!magenta
+URxvt*color5:		#96c359
+URxvt*color13:		#cf9ebe
+!cyan
+URxvt*color6:		#418179
+URxvt*color14:		#71bebe
+!white
+URxvt*color7:		#bebebe
+URxvt*color15:		#ffffff
+
+!black
+!URxvt*color0:		#272727
+!URxvt*color8:	        #353535
+!red
+!URxvt*color1:	        #EA6868
+!URxvt*color9:	        #FF7272
+!green
+!URxvt*color2:	        #ABCB8D
+!URxvt*color10:	        #AFD78A
+!yellow
+!URxvt*color3:	        #E8AE5B
+!URxvt*color11:	        #FFA75D
+!blue
+!URxvt*color4:	        #2145D4
+!URxvt*color12:	        #174DC9
+!magenta
+!URxvt*color5:	        #E2BAF1
+!URxvt*color13:	        #ECAEE9
+!cyan
+!URxvt*color6:	        #21F1EA
+!URxvt*color14:	        #36FFFC
+!white
+!URxvt*color7:	        #F1F1F1
+!URxvt*color15:	        #FFFFFF
+
+!-------------------------------------------------------------------------------
+!
+!	X C A L C - Setting
+!
+!
+xcalc*geometry: 200x275
+xcalc.ti.bevel.background: #111111
+xcalc.ti.bevel.screen.background: #000000
+xcalc.ti.bevel.screen.DEG.background: #000000
+xcalc.ti.bevel.screen.DEG.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.GRAD.background: #000000
+xcalc.ti.bevel.screen.GRAD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.RAD.background: #000000
+xcalc.ti.bevel.screen.RAD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.INV.background: #000000
+xcalc.ti.bevel.screen.INV.foreground: Red
+xcalc.ti.bevel.screen.LCD.background: #000000
+xcalc.ti.bevel.screen.LCD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.LCD.shadowWidth: 0
+xcalc.ti.bevel.screen.M.background: #000000
+xcalc.ti.bevel.screen.M.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.P.background: #000000
+xcalc.ti.bevel.screen.P.foreground: Yellow
+xcalc.ti.Command.foreground: White
+xcalc.ti.Command.background: #777777
+xcalc.ti.button5.background: Orange3
+xcalc.ti.button19.background: #611161
+xcalc.ti.button18.background: #611161
+xcalc.ti.button20.background: #611111
+xcalc.ti.button25.background: #722222
+xcalc.ti.button30.background: #833333
+xcalc.ti.button35.background: #944444
+xcalc.ti.button40.background: #a55555
+xcalc.ti.button22.background: #222262
+xcalc.ti.button23.background: #222262
+xcalc.ti.button24.background: #222272
+xcalc.ti.button27.background: #333373
+xcalc.ti.button28.background: #333373
+xcalc.ti.button29.background: #333373
+xcalc.ti.button32.background: #444484
+xcalc.ti.button33.background: #444484
+xcalc.ti.button34.background: #444484
+xcalc.ti.button37.background: #555595
+xcalc.ti.button38.background: #555595
+xcalc.ti.button39.background: #555595
+XCalc*Cursor:                 hand2
+XCalc*ShapeStyle:             rectangle
+
+!-------------------------------------------------------------------------------
+!
+!	X F O N T S E L - Setting
+!
+!
+!XFontSel*sampleText.background: TEXTBG
+XFontSel*menu*showUnselectable: false
+XFontSel*MenuButton.shadowWidth: 0
+XFontsel*Toggle*ToggleStyle: check
+XFontsel*MenuButton*Justify:    left
+XFontsel*MenuButton*MenuButtonStyle: select
+.xfontsel.pane.commandBox.quitButton.background: #777777
+.xfontsel.pane.commandBox.quitButton.foreground: snow
+.xfontsel.pane.commandBox.ownButton.background: orange3
+.xfontsel.pane.commandBox.ownButton.foreground: snow
+.xfontsel.pane.commandBox.countLabel.background: snow
+.xfontsel.pane.viewPort.sampleText.background: #777777
+.xfontsel.pane.viewPort.sampleText.foreground: snow
+.xfontsel.pane.fieldBox.field0.background: #777777
+.xfontsel.pane.fieldBox.field0.foreground: snow
+.xfontsel.pane.fieldBox.field1.background: #777777
+.xfontsel.pane.fieldBox.field1.foreground: snow
+.xfontsel.pane.fieldBox.field2.background: #777777
+.xfontsel.pane.fieldBox.field2.foreground: snow
+.xfontsel.pane.fieldBox.field3.background: #777777
+.xfontsel.pane.fieldBox.field3.foreground: snow
+.xfontsel.pane.fieldBox.field4.background: #777777
+.xfontsel.pane.fieldBox.field4.foreground: snow
+.xfontsel.pane.fieldBox.field5.background: #777777
+.xfontsel.pane.fieldBox.field5.foreground: snow
+.xfontsel.pane.fieldBox.field6.background: #777777
+.xfontsel.pane.fieldBox.field6.foreground: snow
+.xfontsel.pane.fieldBox.field7.background: #777777
+.xfontsel.pane.fieldBox.field7.foreground: snow
+.xfontsel.pane.fieldBox.field8.background: #777777
+.xfontsel.pane.fieldBox.field8.foreground: snow
+.xfontsel.pane.fieldBox.field9.background: #777777
+.xfontsel.pane.fieldBox.field9.foreground: snow
+.xfontsel.pane.fieldBox.field10.background: #777777
+.xfontsel.pane.fieldBox.field10.foreground: snow
+.xfontsel.pane.fieldBox.field11.background: #777777
+.xfontsel.pane.fieldBox.field11.foreground: snow
+.xfontsel.pane.fieldBox.field12.background: #777777
+.xfontsel.pane.fieldBox.field12.foreground: snow
+.xfontsel.pane.fieldBox.field13.background: #777777
+.xfontsel.pane.fieldBox.field13.foreground: snow
+.xfontsel.pane.fieldBox*foreground: #000000
+.xfontsel.pane.fieldBox.MenuButton.borderWidth: 1
+.xfontsel.pane.fieldBox.MenuButton.internalHeight: 1
+.xfontsel.pane.fieldBox.MenuButton.internalWidth: 2
+.xfontsel.pane.fieldBox.MenuButton.shapeStyle: rectangle
+
+!-------------------------------------------------------------------------------
+!
+!	X C L O C K- Setting
+!
+!
+XClock.geometry: -5-5
+XClock.transient: true
+XClock.clock.analog: false
+XClock.clock.update: 1
+
+!-------------------------------------------------------------------------------
+!
+!	X M E S S A G E - Setting
+!
+!
+.xmessage.form.okay.shapeStyle: rectangle
+.xmessage.form.okay.background: #777777
+.xmessage.form.okay.foreground: snow
+!xmessage*message*background: snow
+xmessage*defaultButton: okay
+Xmessage.form.message.Scroll:  WhenNeeded
+
+!-------------------------------------------------------------------------------
+!
+!	I R S S I C O L O S E T S
+!
+!
+! colorset1 (for dark.theme, grass.theme)
+!black
+irssi1*color0:			#000000
+irssi1*color8:			#686868
+!red
+irssi1*color1:			#D73C3C
+irssi1*color9:			#FF5454
+!green
+irssi1*color2:			#1BC91B
+irssi1*color10:			#97fc82
+!yellow
+irssi1*color3:			#CCCC66
+irssi1*color11:			#FFF879
+!blue
+irssi1*color4:			#5298D2
+irssi1*color12:			#18C8F8
+!magenta
+irssi1*color5:			#DFB68F
+irssi1*color13:			#EC97EF
+!cyan
+irssi1*color6:			#20EDED
+irssi1*color14:			#36FFFC
+!white
+irssi1*color7:			#E9E9E9
+irssi1*color15:			#FFFFFF
+
+! colorset2 (for solo.theme)
+!black
+irssi2*color0:			#151515
+irssi2*color8:			#686868
+!red
+irssi2*color1:			#CA5E5E
+irssi2*color9:			#EF494D
+!green
+irssi2*color2:			#87D07B
+irssi2*color10:			#9FDE64
+!yellow
+irssi2*color3:			#CC9366
+irssi2*color11:			#E0A765
+!blue
+irssi2*color4:			#77ACD7
+irssi2*color12:			#369DD6
+!magenta
+irssi2*color5:			#BD8CD0
+irssi2*color13:			#D176CA
+!cyan
+irssi2*color6:			#44CACF
+irssi2*color14:			#6CBFC4
+!white
+irssi2*color7:			#B1B1B1
+irssi2*color15:			#F0EFE7
+
+! colorset3 (for methyl.theme)
+!black
+irssi3*color0:			#333333
+irssi3*color8:			#434141
+!red
+irssi3*color1:			#CA5E5E
+irssi3*color9:			#EF494D
+!green
+irssi3*color2:			#9FB39C
+irssi3*color10:			#9FDE64
+!yellow
+irssi3*color3:			#CC9366
+irssi3*color11:			#E0A765
+!blue
+irssi3*color4:			#8CA0B0
+irssi3*color12:			#3D6A82
+!magenta
+irssi3*color5:			#BD8CD0
+irssi3*color13:			#D176CA
+!cyan
+irssi3*color6:			#44CACF
+irssi3*color14:			#6CBFC4
+!white
+irssi3*color7:			#B1B1B1
+irssi3*color15:			#F0EFE7
+
+! colorset4 (for methyl2.theme)
+!black
+irssi4*color0:			#333333
+irssi4*color8:			#686868
+!red
+irssi4*color1:			#CA5E5E
+irssi4*color9:			#FF595D
+!green
+irssi4*color2:			#ABCB8D
+irssi4*color10:			#AFD78A
+!yellow
+irssi4*color3:			#C48D62
+irssi4*color11:			#E0A765
+!blue
+irssi4*color4:			#8CA0B0
+irssi4*color12:			#3D6A82
+!magenta
+irssi4*color5:			#CC98E0
+irssi4*color13:			#E1A2DC
+!cyan
+irssi4*color6:			#44CACF
+irssi4*color14:			#6CBFC4
+!white
+irssi4*color7:			#E7E6DD
+irssi4*color15:			#F0EFE7
+
+! colorset5 ()
+!black
+irssi5*color0:  #000000
+irssi5*color8:  #737373
+!red
+irssi5*color1:  #d04c63
+irssi5*color9:  #cf8187
+!green
+irssi5*color2:  #8ebc48
+irssi5*color10: #a8c599
+!yellow
+irssi5*color3:  #f4a45f
+irssi5*color11: #fff796
+!blue
+irssi5*color4:  #344863
+irssi5*color12: #7292ad
+!magenta
+irssi5*color5:  #940a78
+irssi5*color13: #a96993
+! cyan
+irssi5*color6:  #0b94a0
+irssi5*color14: #96cccc
+!white
+irssi5*color7:  gray
+irssi5*color15: white
+
+! colorset5 (for minimal.theme)
+!black
+irssi6*color0:		#676767
+irssi6*color8:	        #757575
+!red
+irssi6*color1:	        #EA6868
+irssi6*color9:	        #FF7272
+!green
+irssi6*color2:	        #ABCB8D
+irssi6*color10:	        #AFD78A
+!yellow
+irssi6*color3:	        #E8AE5B
+irssi6*color11:	        #FFA75D
+!blue
+irssi6*color4:	        #71C5F4
+irssi6*color12:	        #67CDE9
+!magenta
+irssi6*color5:	        #E2BAF1
+irssi6*color13:	        #ECAEE9
+!cyan
+irssi6*color6:	        #21F1EA
+irssi6*color14:	        #36FFFC
+!white
+irssi6*color7:	        #F1F1F1
+irssi6*color15:	        #FFFFFF
+
+!-------------------------------------------------------------------------------
+!
+!	X C A L E D A R - Setting
+!
+!
+!xcalendar*title: XCalendar 4.0
+!xcalendar*calendarDir: ~/.calendar
+!xcalendar*markHoliday: True
+!xcalendar*markBackground: Darkgray
+!xcalendar*markCurrent: True
+!xcalendar*resizable: False
+!xcalendar*daynames.SUN*Foreground: Darkred
+!xcalendar*firstDay: 1
+!xcalendar*daynumbers.7*Foreground: Darkred
+!xcalendar*daynumbers.8*Foreground: Black
+!xcalendar*daynumbers.14*Foreground: Darkred
+!xcalendar*daynumbers.15*Foreground: Black
+!xcalendar*daynumbers.21*Foreground: Darkred
+!xcalendar*daynumbers.22*Foreground: Black
+!xcalendar*daynumbers.28*Foreground: Darkred
+!xcalendar*daynumbers.29*Foreground: Black
+!xcalendar*daynumbers.35*Foreground: Darkred
+!xcalendar*daynumbers.36*Foreground: Black
+!xcalendar*holiday*cursorPositionVisible: True
+!xcalendar*holiday*displayCaret: True

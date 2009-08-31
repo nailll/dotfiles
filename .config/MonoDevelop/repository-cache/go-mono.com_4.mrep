@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>go-mono.com</Name>
+  <Url>http://go-mono.com/md/2.0/main.mrep</Url>
+  <Repository>
+    <Url>root.mrep</Url>
+    <LastModified>2009-04-29T22:48:10.0000000+04:00</LastModified>
+  </Repository>
+</Repository>

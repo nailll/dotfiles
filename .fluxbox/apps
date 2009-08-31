@@ -1,0 +1,4 @@
+[app] (name=run) (class=URxvt)
+  [Deco]	{NORMAL}
+[end]
+

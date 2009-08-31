@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Preferences</key>
+	<dict>
+		<key>EncodeLogLocation</key>
+		<false />
+		<key>allow_tweaks</key>
+		<false />
+		<key>chapters_in_destination</key>
+		<false />
+		<key>default_source</key>
+		<string>/home/nailll/Videos/A Beautiful Mind.avi</string>
+		<key>destination_dir</key>
+		<string>/home/nailll/Videos</string>
+		<key>hbfd</key>
+		<false />
+		<key>hbfd_feature</key>
+		<false />
+		<key>nocheckvquality</key>
+		<false />
+		<key>noscale</key>
+		<false />
+		<key>reduce_hd_preview</key>
+		<true />
+		<key>show_presets</key>
+		<true />
+		<key>update_skip_version</key>
+		<integer>0</integer>
+		<key>use_source_name</key>
+		<true />
+		<key>version</key>
+		<string>0.1</string>
+	</dict>
+</dict>
+</plist>

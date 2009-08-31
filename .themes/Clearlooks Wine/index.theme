@@ -1,0 +1,6 @@
+[X-GNOME-Metatheme]
+Name=Clearlooks Wine
+Encoding=UTF-8
+GtkTheme=Clearlooks Wine
+MetacityTheme=Clearlooks-Colors Metacity
+IconTheme=gnome-wine

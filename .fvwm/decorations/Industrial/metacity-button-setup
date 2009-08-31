@@ -1,0 +1,32 @@
+# Metacity Window Button Setup
+# Written by Maciej Delmanowski <harnir@linux.net.pl>
+#
+# This is the window titlebar button setup similar to the metacity window
+# manager buttons on the titlebar
+
+# First button - close, iconify, destroy
+Mouse 1 1 $[Mod]	Popup /Window-Menu Button1 0 100
+Mouse 2 1 $[Mod]	Popup /Window-Menu Button1 0 100
+Mouse 2 1 $[Mod1]	Popup /Window-Menu Button1 0 100
+Mouse 3 1 $[Mod]	Popup /Window-Menu Button1 0 100
+
+# Second button - close, iconify, destroy
+Mouse 1 2 $[Mod]	Window-Button-Function Button2 /Window-Menu Close
+Mouse 2 2 $[Mod]	Window-Button-Function Button2 /Window-Menu Nop
+Mouse 2 2 $[Mod1]	Window-Button-Function Button2 /Window-Menu Nop
+Mouse 3 2 $[Mod]	Window-Button-Function Button2 /Window-Menu Nop
+
+# 4th button - various ways to maximize a window
+Mouse 1 4 $[Mod0]	Window-Button-Function Button4 /Window-Menu-Maximize Maximize 
+Mouse 2 4 $[Mod0]	Window-Button-Function Button4 /Window-Menu-Maximize Maximize 0 100
+Mouse 3 4 $[Mod0]	Window-Button-Function Button4 /Window-Menu-Maximize Maximize 100 0
+Mouse 1 4 $[Mod1]	Window-Button-Function Button4 /Window-Menu-Maximize Maximize grow grow
+Mouse 2 4 $[Mod1]	Window-Button-Function Button4 /Window-Menu-Maximize Maximize 0 grow
+Mouse 3 4 $[Mod1]	Window-Button-Function Button4 /Window-Menu-Maximize Maximize grow 0
+
+# 6th button - additional window commands
+Mouse 1 6 $[Mod]	Window-Button-Function Button6 /Window-Menu Window-Iconify
+Mouse 1 6 $[Mod1]	Window-Button-Function Button6 /Window-Menu Nop
+Mouse 2 6 $[Mod]	Window-Button-Function Button6 /Window-Menu Nop
+Mouse 3 6 $[Mod]	Window-Button-Function Button6 /Window-Menu Nop
+

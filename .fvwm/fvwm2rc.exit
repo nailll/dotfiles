@@ -1,0 +1,9 @@
+
+#==============-
+# Function Exit
+#==============-
+
+AddToFunc ExitFunction
+#+ I Exec exec rm -fr [$FVWM_USERDIR]/icon.tmp.*.png
++ I Test (!ToRestart) Exec exec rm -fr [$FVWM_USERDIR]/icon.tmp.*.png
+

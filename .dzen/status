@@ -1,0 +1,8 @@
+background no
+out_to_console yes
+update_interval 1
+use_spacer none
+total_run_times 0 
+
+TEXT
+${texeci 10800 python /home/nailll/dzen/updates.py}^fg(#89b83f)  ^r(1x8)  ${texeci 300 python /home/nailll/.dzen/gmail.py}^fg(#89b83f)  ^r(1x8)  ^fg(#eeeeee)^i(/home/nailll/.dzen/icons/cpu.xbm) ^fg()${cpu cpu0}% ^fg(#eeeeee)^i(/home/nailll/.dzen/icons/mem.xbm) ^fg()${mem}^fg(#89b83f)  ^r(1x8)  ^fg(#eeeeee)^i(/home/nailll/.dzen/icons/wifi_02.xbm) ^fg()${wireless_essid wlan0} ${wireless_link_qual_perc wlan0}% ^fg(#eeeeee)^i(/home/nailll/.dzen/icons/net_down_03.xbm) ^fg()${downspeedf wlan0}kbp/s ^fg(#eeeeee)^i(/home/nailll/.dzen/icons/net_up_03.xbm) ^fg()${upspeedf wlan0}kbp/s^fg(#89b83f)  ^r(1x8)  ^fg(#eeeeee)^i(/home/nailll/.dzen/icons/diskette.xbm) ^fg(#eeeeee)/ ^fg()${fs_free /} ^fg(#eeeeee)/home ^fg()${fs_free /home}^fg(#89b83f)  ^r(1x8)  ^fg(#eeeeee)^i(/home/nailll/.dzen/icons/bat_full_02.xbm) ^fg()${battery_percent}% ^fg(#eeeeee)^i(/home/nailll/.dzen/icons/ac_01.xbm) ^fg()${acpiacadapter}  ^fg(eeeeee) ^bg(#89b83f) ${time %H:%M %a %d/%m/%y}^p(4)

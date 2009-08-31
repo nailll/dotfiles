@@ -1,0 +1,116 @@
+<monitors version="1">
+  <configuration>
+      <clone>yes</clone>
+      <output name="VGA">
+      </output>
+      <output name="LVDS">
+          <vendor>AUO</vendor>
+          <product>0x0f06</product>
+          <serial>0x00000000</serial>
+          <width>1024</width>
+          <height>768</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+      </output>
+  </configuration>
+  <configuration>
+      <clone>yes</clone>
+      <output name="default">
+          <vendor>???</vendor>
+          <product>0x0000</product>
+          <serial>0x00000000</serial>
+          <width>1024</width>
+          <height>768</height>
+          <rate>0</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+      </output>
+  </configuration>
+  <configuration>
+      <clone>yes</clone>
+      <output name="LVDS">
+          <vendor>AUO</vendor>
+          <product>0x0f06</product>
+          <serial>0x00000000</serial>
+          <width>1024</width>
+          <height>768</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+      </output>
+      <output name="VGA">
+          <vendor>???</vendor>
+          <product>0x0000</product>
+          <serial>0x00000000</serial>
+          <width>1360</width>
+          <height>768</height>
+          <rate>60</rate>
+          <x>1024</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="VGA1">
+      </output>
+      <output name="TV1">
+      </output>
+      <output name="LVDS1">
+          <vendor>AUO</vendor>
+          <product>0x0f06</product>
+          <serial>0x00000000</serial>
+          <width>1024</width>
+          <height>768</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+      </output>
+  </configuration>
+  <configuration>
+      <clone>yes</clone>
+      <output name="TV1">
+      </output>
+      <output name="LVDS1">
+          <vendor>AUO</vendor>
+          <product>0x0f06</product>
+          <serial>0x00000000</serial>
+          <width>1024</width>
+          <height>768</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>768</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+      </output>
+      <output name="VGA1">
+          <vendor>???</vendor>
+          <product>0x0000</product>
+          <serial>0x00000000</serial>
+          <width>1024</width>
+          <height>768</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+      </output>
+  </configuration>
+</monitors>

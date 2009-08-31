@@ -1,0 +1,59 @@
+{
+   "HostReferralList": [ [ "dirty.ru", [ "img36.imageshack.us", 0, "img504.imageshack.us", 0, "img91.imageshack.us", 0, "ixd.piccy.info.nyud.net", 0, "pit.dirty.ru", 4, "s45.radikal.ru", 0, "upload.wikimedia.org", 0 ] ], [ "habrahabr.ru", [ "counter.yadro.ru", 6, "fs0.yap-yap.yota.ru", 0, "habr.user.madbanner.ru", 14, "pink.habralab.ru", 80, "www.google-analytics.com", 0, "www.picamatic.com", 0, "www.tns-counter.ru", 22 ] ], [ "mail.google.com", [ "chatenabled.mail.google.com", 3 ] ], [ "upyachka.ru", [ "counter.yadro.ru", 14, "gizmod.ru", 0, "img188.imageshack.us", 0, "img26.imageshack.us", 0, "leprastuff.ru", 0, "www.ljplus.ru", 0, "www.upyachka.ru", 0 ] ], [ "welcome.hp.com", [ "h41174.www4.hp.com", 0, "h41178.www4.hp.com", 0, "h41213.www4.hp.com", 1, "hphqemeaov2banners.112.2o7.net", 0, "hphqglobal.112.2o7.net", 0, "met1.hp.com", 2, "welcome.hp-ww.com", 4 ] ], [ "www.google.com", [ "assets3.lookatme.ru", 0, "blogger.googleusercontent.com", 0, "calendar.google.com", 0, "img197.imageshack.us", 0, "prlib.ru", 0, "px6.ru", 0, "ssl.google-analytics.com", 0, "www.google.ru", 26 ] ], [ "www.linux.org.ru", [ "googleads.g.doubleclick.net", 0, "pagead2.googlesyndication.com", 0, "top8.mail.ru", 11, "www.google-analytics.com", 0 ] ], [ "www.southparkstudios.com", [ "ad.doubleclick.net", 2, "fls.doubleclick.net", 0, "images.southparkstudios.com", 2, "niagara.comedycentral.com", 0, "viacomedycentralrl.112.2o7.net", 1, "www.edge.quantserve.com", 0 ] ] ],
+   "StartupDNSPrefetchList": [ "clients1.google.ru", "www.google.com", "www.google.ru" ],
+   "browser": {
+      "last_known_google_url": "http://www.google.ru/",
+      "window_placement": {
+         "bottom": 745,
+         "left": 0,
+         "maximized": true,
+         "right": 1024,
+         "top": 45
+      }
+   },
+   "options_window": {
+      "last_tab_index": 2
+   },
+   "safe_browsing": {
+      "client_key": "qmHqkL_lBjc3YCbS4W9ouQ==",
+      "wrapped_key": "AKEgNivKfvA70SuwQVAAEX7W2NVGprRdoes5_6KyOpQVddhcK9Zr_-gqB3tA_Jqo9v4F5kLdZUxT-Pz35AuGfJ8QVpRKcZMFhg=="
+   },
+   "shutdown": {
+      "num_processes": 2,
+      "num_processes_slow": 0,
+      "type": 1
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1244310431",
+      "launch_count": "5",
+      "uptime_sec": "7298"
+   },
+   "user_experience_metrics": {
+      "initial_logs": [  ],
+      "ongoing_logs": [  ],
+      "security": {
+         "renderer_on_default_desktop": 0,
+         "renderer_on_sbox_desktop": 0
+      },
+      "session_id": 4,
+      "stability": {
+         "breakpad_registration_fail": 0,
+         "breakpad_registration_ok": 0,
+         "crash_count": 0,
+         "debugger_not_present": 0,
+         "debugger_present": 0,
+         "exited_cleanly": true,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1246994971",
+         "launch_count": 1,
+         "launch_time_sec": "1246994916",
+         "page_load_count": 0,
+         "plugin_stats2": [  ],
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_version": "3.0.191.3",
+         "uptime_sec": "19"
+      }
+   }
+}

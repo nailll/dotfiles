@@ -1,0 +1,25 @@
+# 
+# ~/.conkyrc-clock - an attractive, Elegant Brit-style desktop clock
+# 
+
+alignment       bottom_right
+color0          e1e1e1
+color1          e04613
+default_color   ffffff
+double_buffer   yes
+draw_shades     no
+font            DejaVu Serif-36
+gap_x           20
+gap_y           20
+minimum_size    225
+own_window      yes
+own_window_transparent yes
+own_window_type desktop 
+own_window_hints undecorate,sticky,skip_pager 
+update_interval 2
+use_xft         yes
+
+TEXT
+$alignc${time %-I:%M}$color0${time %P}${font DejaVu Serif-12}
+$color1${hr 3}$color
+$alignc${time %A, %B %-d}

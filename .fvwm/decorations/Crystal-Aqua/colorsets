@@ -1,0 +1,7 @@
+# Crystal theme
+# Written by: Maciej Delmanowski <harnir@linux.net.pl>
+
+# What colorset numbers do we use?
+SetEnv cs-window-inactive "9"
+SetEnv cs-window-active "10"
+

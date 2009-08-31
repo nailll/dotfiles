@@ -1,0 +1,29 @@
+#-- Decorations --
+#Read ./decorations/Crystal/WhiteDesktop/Theme.fvwm-crystal
+#Read ./decorations/Crystal/Red - Cyan.theme
+#Read ./decorations/Crystal/IrishDesktop.theme
+#Read ./decorations/Crystal/DarkGreen.theme
+#Read ./decorations/Crystal/DarkDesktop/Theme.fvwm-crystal
+#Read ./decorations/Ish/Default/Theme.fvwm-crystal
+#Read ./decorations/Crystal-Aqua/Default.theme
+#Read ./decorations/Crystal/Original/Theme.fvwm-crystal
+#Read ./decorations/SystemG/BlueCurve/Theme.fvwm-crystal
+#Read ./decorations/SystemG/Dusk/Theme.fvwm-crystal
+#Read ./decorations/decoone/Default.theme
+#Read ./decorations/Clearlooks/Default/Theme.fvwm-crystal
+#Read ./decorations/Clearlooks/DeepSky/Theme.fvwm-crystal
+Read ./decorations/Industrial/Industrial_crystal.theme
+
+#-- Decoration Overrides --
+
+#Style * !Title #-- without title bar
+
+Style * HandleWidth 4
+Style * BorderWidth 1
+Style * RoundedCorners,SlightlyRoundedCorners
+MenuStyle * RoundedCorners, SlightlyRoundedCorners
+#Style * RoundedCorners
+Style * ResizeOutline, ResizeOutlineThin
+Style * Font "shadow=1 0 SE:xft:Dejavu sans:size=9:weight=bold:antialising=1:encoding=iso10646-1"
+
+

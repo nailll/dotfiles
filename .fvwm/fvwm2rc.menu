@@ -1,0 +1,199 @@
+#=========================================================
+# fvwm2rc.menu
+#=========================================================
+
+#==============-
+# Menu Colorset
+#==============-
+Colorset 0 fg #ffffff, fgsh #3A3A3A, bg #34639c, hi #505050, sh #000000, RootTransparent, Tint #000000 75
+Colorset 1 fg #000000, fgsh #cAcAcA, bg #f0fff0, hi #000000, sh #000000, RootTransparent, Tint #FFFFFF 70
+
+#=========================-
+# Menu Style Configuration
+#=========================-
+
+MenuStyle * Hilight3DOff
+MenuStyle * Hilight3DThin
+MenuStyle * PopUpOffset -1 100
+MenuStyle * PopUpDelayed, PopUpDelay 80, PopDownDelayed, PopDownDelay 100
+#MenuStyle * Font "Shadow=1 0 SE:xft:Tahoma:size=9:bold:encoding=iso10646-1:antialias=0"
+MenuStyle * Font "Shadow=1 0 SE:xft:Dejavu Sans:size=9:bold:encoding=iso10646-1:antialias=0"
+MenuStyle * MenuColorset 0, HilightBack, ActiveColorset 1
+MenuStyle * BorderWidth 1
+MenuStyle * TitleUnderlines0
+MenuStyle * SeparatorsShort
+MenuStyle * TrianglesSolid
+MenuStyle * TitleWarpOff
+MenuStyle * ItemFormat "%.2|%.5i%.5l%.5i%2.3>%2|"
+MenuStyle * AutomaticHotKeys
+MenuStyle * !FlatSeparators
+#MenuStyle * Animation
+
+# -- for Debian Systems
+Read menudefs.hook
+
+DestroyMenu MenuFvwmRoot
+AddToMenu MenuFvwmRoot
++ "Terminal"%icons/terminal.png%	Exec ~/bin/terminal.sh
+#+ "Konsole"%icons/terminal.png%	Exec exec konsole
+#+ "Opera"%icons/opera.png%		Exec exec opera
++ "Firefox"%icons/firefox.png%		Exec exec firefox
+#+ "Konqueror"%icons/file-manager.png%	Exec exec konqueror ~/ 
+#+ "Nautilus"%icons/file-manager.png%	Exec exec nautilus --no-desktop ~/ 
++ "Thunar"%icons/file-manager.png%	Exec exec thunar ~/
++ ""					Nop
++ "Development"%icons/none.png%		Popup MenuDevelopment
++ "Office"%icons/office.png%		Popup MenuOffice
++ "Internet"%icons/internet.png%	Popup MenuInternet
++ "Editors"%icons/editor.png%		Popup MenuEditors
++ "Multimedia"%icons/multimedia.png%	Popup MenuMultimedia
++ "Graphics"%icons/graphics.png%	Popup MenuGraphics
++ "Utilities"%icons/utilities.png%	Popup MenuUtilities
+#+ "Games"%icons/games.png%		Popup MenuGames
++ "Settings"%icons/preferences.png%	Popup MenuFvwmConfig
+#+ "Debian"				Popup "/Debian"
++ ""					Nop
++ "Exit"%icons/logout.png%		Popup MenuQuit
+
+DestroyMenu MenuDevelopment
+AddToMenu MenuDevelopment
++ "qt4 assistant"%icons/assistant.png%		Exec assistant
++ "qt4 designer"%icons/designer.png%		Exec designer
+
+DestroyMenu MenuOffice
+AddToMenu MenuOffice
++ "Adobe Reader"%icons/acroread.png%       Exec exec acroread
+#+ "&Ximian OOo"%icons/office.png%         Exec exec ooffice2 -base
+#+ ""                                      Nop
+#+ "kword"%icons/kword.png%		Exec exec kword
+#+ "kspread"%icons/kspread.png%		Exec exec kspread
+#+ "kpresenter"%icons/kpresenter.png%	Exec exec kpresenter
+#+ "kivio"%icons/kivio.png%		Exec exec kivio
++ "OOo"%icons/office.png%		    	Exec exec ooffice2
++ "OOo &Writer"%icons/office.png%		Exec exec ooffice2 -writer
++ "OOo &Calc"%icons/office.png%		Exec exec ooffice2 -calc
+#+ ""                                      Nop
+#+ "Abi&Word"%icons/word.png%           Exec exec abiword-2.0
+
+DestroyMenu MenuInternet
+AddToMenu MenuInternet
++ "&Firefox"%icons/firefox.png%	Exec exec firefox
+#+ "Opera"%icons/opera.png%	Exec exec opera
++ "&Thunderbird"%icons/thunderbird.png%	Exec exec thunderbird
+#+ "Evolution"%icons/evolution.png%	Exec exec evolution
+#+ "Kvpnc"%icons/kvpnc.png%	Exec exec kvpnc
+#+ "Kppp"%icons/kppp.png%		Exec exec kppp
+#+ "Smb4k"%icons/samba.png%	Exec exec smb4k
++ "Xchat"%icons/xchat.png%        Exec exec xchat
+#+ "Konversation"%icons/irc.png%	Exec exec konversation
++ "Pidgin"%icons/pidgin.png%          Exec exec pidgin
+#+ "PSI"%icons/psi.png%		Exec exec psi
+#+ "LogJam"%icons/logjam.png%	Exec exec logjam
++ "Gajim"%icons/gajim.png% 	Exec exec gajim
+#+ "Gftp"%icons/gftp.png%          Exec exec gftp
+#+ "D4X"%icons/gnome-fs-network.png%       Exec exec nt -a
+#+ "VPN Connect"			Exec exec xterm -e "~/sbin/adsl start" &
+#+ "VPN Disconnect"		Exec exec xterm -e "~/sbin/adsl stop" &
+
+DestroyMenu MenuEditors
+AddToMenu MenuEditors
++ "Gvim"%icons/editor.png%                 Exec exec gvim
++ "Emacs"%icons/emacs.png%				Exec exec emacs
+#+ "Eclipse"%icons/eclipse.png%        Exec exec /usr/bin/eclipse
+#+ "Bluefish"%icons/bluefish.png%        Exec exec bluefish
+
+DestroyMenu MenuMultimedia
+AddToMenu MenuMultimedia
+#+MissingSubmenuFunction FuncFvwmMenuDirectory
+#+ "amarok"%icons/amarok.png%                  Exec exec amarok
+#+ "Beep Media Player"%icons/xmms.png%                  Exec exec beep-media-player
++ "Sonata"%icons/none.png%     Exec exec sonata 
+#+ "Xmms"%icons/xmms.png%    		      Exec exec xmms
+#+ ""                                      	   Nop
+#+ "G&rip"%icons/grip.png%                 Exec exec grip
+#+ "DVD&rip"%icons/grip.png%               Exec exec dvdrip
+#+ "xcdroast"%icons/k3b.png%               Exec exec xcdroast
+#+ ""                                      	   Nop
++ "Mplayer"%icons/mplayer.png%            Exec exec gmplayer
+#+ "Gxine"%icons/gxine.png%                Exec exec gxine
+#+ "Xawtv"%icons/tvtime.png% 	            Exec exec xawtv
+
+DestroyMenu MenuGraphics
+AddToMenu MenuGraphics
++ "The Gimp"%icons/gimp.png%		Exec exec gimp
++ "Inkscape"%icons/inkscape.png%	Exec exec inkscape
++ "gqview"%icons/gqview.png%		Exec exec gqview
+#+ "Gwenview"%icons/gwenview.png%	Exec exec gwenview
+
+DestroyMenu MenuUtilities
+AddToMenu MenuUtilities
+#+ "Gdesklets"%icons/gnome-terminal.png%   Exec exec gdesklets
+#+ "Gdeskcal"%icons/gnome-terminal.png%    Exec exec gdeskcal
+#+ "G&krellm"%icons/gnome-terminal.png%    Exec exec gkrellm2
+#+ ""                                      Nop
++ "XTerm"%icons/terminal.png%	Exec exec xterm
++ "Terminal"%icons/terminal.png%     	     Exec ~/sbin/terminal.sh
+#+ "Konsole"%icons/terminal.png%	Exec exec konsole
++ ""					Nop
++ "Screenshot"%icons/terminal.png%  Exec exec ~/bin/screenshot.sh
+
+DestroyMenu MenuGames
+AddToMenu MenuGames
+#+ "TransGaming Cedega"                  Exec exec /usr/bin/cedega
++ "Quake III"%icons/quake3.png%		Exec exec quake3
+#+ "Unreal 2004"                         Exec exec ut2004
+#+ "Unreal 2004-RO"                      Exec exec ut2004-ro
+#+ "Enemy Territory"                     Exec exec et
+#+ "Far Cry"                       	Exec exec farcry
+#+ "Foobillard"                       	Exec exec foobillard
+
+DestroyMenu MenuFvwmConfig
+AddToMenu MenuFvwmConfig
+#+ "Gamix"%icons/gnome-cd.png%			Exec exec gamix
+#+ ""						Nop
++ "FvwmConsole"%icons/gnome-terminal.png%	Module FvwmConsole -terminal xterm
++ "Edit .fvwm2rc"%icons/gvim.png%		Exec exec gvim ~/.fvwm/
++ "gtk-theme-change"%icons/gnome-terminal.png%	Exec exec switch2 
++ "kcontrol"%icons/kde.png%			Exec exec kcontrol
+#+ "Wallpapers"%icons/prefs.png%			Popup $[fvwm_wallpaper_dir]
++ ""						Nop
++ "Refresh"%icons/quit2.png%              	Refresh
++ "Kill"%icons/quit2.png%                 	Pick Destroy
+
+DestroyMenu MenuQuit
+AddToMenu MenuQuit
++ "Quit"%icons/logout.png%		Quit
++ "Restart"%icons/logout.png%		Restart
++ ""					Nop
++ "Reboot"%icons/shutdown.png%		Exec exec sudo /sbin/reboot
++ "Shutdown"%icons/shutdown.png%	Exec exec sudo /sbin/halt
+
+#=====================
+# Setting Windows Menu
+#=====================
+
+DestroyMenu MenuFvwmWindowOps
+AddToMenu MenuFvwmWindowOps
++ "Resize"		Pick Resize
++ "Shade"		Pick WindowShade Toggle
++ "Stick"		Pick Stick
++ "Refresh"		Pick RefreshWindow
++ ""			Nop
++ "Identification"	Pick Module FvwmIdent
++ ""			Nop
++ "Send to"		Popup MenuFvwmSendTo
++ ""			Nop
++ "Close"		Close
++ "Destroy"		Destroy
+
+DestroyMenu MenuFvwmSendTo
+AddToMenu MenuFvwmSendTo
++ "Page &1"	MoveToPage 0 0
++ "Page &2"	MoveToPage 1 0 
++ "Page &3"	MoveToPage 2 0
++ "Page &4"	MoveToPage 3 0
+ 
+
+
+
+

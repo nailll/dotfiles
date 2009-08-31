@@ -1,0 +1,7 @@
+# Clear theme
+# Written by: Rafal Bisingier <ravbc@man.poznan.pl>
+
+# What colorset numbers do we use?
+SetEnv cs-window-inactive "9"
+SetEnv cs-window-active "10"
+

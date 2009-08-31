@@ -1,0 +1,25 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>wine-wine</Name>
+    <Directory>wine-wine.directory</Directory>
+  <Menu>
+    <Name>wine-Programs</Name>
+    <Directory>wine-Programs.directory</Directory>
+  <Menu>
+    <Name>wine-Programs-Act-3D</Name>
+    <Directory>wine-Programs-Act-3D.directory</Directory>
+  <Menu>
+    <Name>wine-Programs-Act-3D-Quest3D Viewers 3.0e</Name>
+    <Directory>wine-Programs-Act-3D-Quest3D Viewers 3.0e.directory</Directory>
+    <Include>
+      <Filename>wine-Programs-Act-3D-Quest3D Viewers 3.0e-Quest3D Viewer.desktop</Filename>
+      <Filename>wine-Programs-Act-3D-Quest3D Viewers 3.0e-Uninstall Quest3D Viewers 3.0e.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+  </Menu>
+  </Menu>
+</Menu>

@@ -1,0 +1,95 @@
+!! Cuttooth by quandar (http://deletefactory.net/quandar)
+
+!! Global Width
+window.handle.width: 1
+
+window.client.padding.width: 0
+border.Width: 1
+padding.width: 2
+
+border.color: #ffffff
+menu.overlap: 0
+window.frameColor: #eeeeee
+window.*.client.color: #eeeeee
+*.text.justify: right
+
+!! Menu
+menu.title.bg: flat gradient vertical
+menu.title.bg.color: #22221f
+menu.title.bg.colorTo: #3d3d3a
+menu.title.text.color: #ffffff
+
+menu.items.bg: flat solid
+menu.items.bg.color: #22221f
+
+menu.items.text.color: #ffffff
+menu.items.disabled.text.color: #737573
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color:  #22221f
+menu.items.active.text.color: #cad181
+
+!! Active Windows
+window.active.title.bg: flat border gradient horizontal
+window.active.title.bg.color: #22221f
+window.active.title.bg.colorTo: #3d3d3a
+window.active.*.bg.border.color: #ffffff
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #cad181
+window.active.button.*.bg.border.color: #4e5860
+
+window.active.button.hover.bg.color: #576773
+window.active.button.hover.bg.border.color: #9aabb9
+window.active.button.hover.image.color: #ffffff
+window.active.button.pressed.bg.color: #343b40
+window.active.button.pressed.bg.colorTo: #000000
+window.active.button.pressed.image.color: #b6b6b6
+window.active.button.pressed.bg.border.color: #95a5b2
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #3d3d3a
+
+window.active.handle.bg:  flat solid
+window.active.handle.bg.color:#ffffff
+
+window.*.grip.bg:  flat solid 
+window.*.grip.bg.color: #ffffff
+
+window.handle.width: 1
+
+!! Inactive Windows
+window.inactive.title.bg: flat border gradient horizontal
+window.inactive.title.bg.color: #22221f
+window.inactive.title.bg.colorTo: #3d3d3a
+window.inactive.*.bg.border.color: #373734
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #919191
+
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.bg.color: #eeeeee
+window.inactive.button.*.image.color:  #3d3d3a
+window.inactive.button.*.bg.border.color: #c9c9c9
+
+window.inactive.button.pressed.bg.color: #c5c2c5
+window.inactive.button.pressed.bg.border.color: #7b7d7b
+window.inactive.button.pressed.image.color: #999999
+
+window.inactive.button.hover.bg.color: #afb1b2
+window.inactive.button.hover.bg.border.color: #d9dfe4
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #3d3d3a
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #f9f7f3
+window.inactive.grip.bg:  parentrelative
+
+!! Fonts
+window.active.label.text.font:HeldustryFTVBasic Demi:pixelsize=9
+window.inactive.label.text.font:HeldustryFTVBasic Demi:pixelsize=9
+menu.items.font: HeldustryFTVBasic Demi:pixelsize=9
+menu.title.text.font: Bitstream Vera Sans:pixelsize=9:bold:shadow=y:shadowoffset=1:shadowtint=75

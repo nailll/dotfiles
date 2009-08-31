@@ -1,0 +1,86 @@
+# DecoOne theme
+
+SetEnv Decoration-Name "DecoOne"
+SetEnv Decoration-Author "na!llL"
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Colorsets
+
+Read $./colorsets
+
+Colorset $[cs-window-inactive] \
+Foreground "black", Background "#323232", \
+Hilight "#999999", Shadow "#222222", \
+Tint 
+
+Colorset $[cs-window-active] \
+Foreground "black", Background "#FF5F3F", \
+Hilight "#cccccc", Shadow "#434343", \
+Tint
+
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Window decoration settings
+DestroyDecor DecoOne
+AddToDecor DecoOne
+
++ TitleStyle InActive TiledPixmap $./title-.xpm
++ TitleStyle Active TiledPixmap $./title+.xpm
++ TitleStyle Centered
++ TitleStyle -- flat
++ TitleStyle Height 20
+
++ BorderStyle -- HiddenHandles
++ BorderStyle -- Flat
+
++ ButtonStyle 1 Inactive Pixmap $./button-.png
++ ButtonStyle 1 ActiveUp Pixmap $./close-.png
++ ButtonStyle 1 ActiveDown Pixmap $./close+.png
+Style * Button 1
+
++ ButtonStyle 2 Inactive Pixmap $./button-.png
++ ButtonStyle 2 ActiveUp Pixmap $./close-.png
++ ButtonStyle 2 ActiveDown Pixmap $./close+.png
+Style * Button 2
+
+Style * NoButton 3
+
++ ButtonStyle 4 Inactive Pixmap $./button-.png
++ ButtonStyle 4 ActiveUp Pixmap $./maximize-.png
++ ButtonStyle 4 ActiveDown Pixmap $./maximize+.png
+Style * Button 4
+
+Style * NoButton 5
+
++ ButtonStyle 6 Inactive Pixmap $./button-.png
++ ButtonStyle 6 ActiveUp Pixmap $./options-.png
++ ButtonStyle 6 ActiveDown Pixmap $./options+.png
+Style * Button 6
+
+Style * NoButton 7
+
++ ButtonStyle 8 Inactive Pixmap $./button-.png
++ ButtonStyle 8 ActiveUp Pixmap $./arrows-.png
++ ButtonStyle 8 ActiveDown Pixmap $./arrows+.png
+Style * NoButton 8
+
+Style * NoButton 9
+
+Style * NoButton 0
+
++ ButtonStyle All -- UseTitleStyle
++ ButtonStyle All -- flat
+
+Style * HandleWidth 3, BorderWidth 3
+Style * Colorset                $[cs-window-inactive], \
+        BorderColorset          $[cs-window-inactive], \
+        HilightColorset         $[cs-window-active], \
+        HilightBorderColorset   $[cs-window-active]
+
+Style * Font "Shadow=1 0 SE:xft:Verdana:bold:pixelsize=12:encoding=iso10646-1:antialising=1"
+
+Style * UseDecor DecoOne
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Window title mouse bindings
+Read $./fvwm-crystal-button-setup

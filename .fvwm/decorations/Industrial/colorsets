@@ -1,0 +1,9 @@
+# Fear decor
+# Written by: Grzegorz "\hoppke" Niewêg³owski
+
+# What colorset numbers we use?
+SetEnv cs-window-activeborder 9
+SetEnv cs-window-inactiveborder 10
+SetEnv cs-window-active 11
+SetEnv cs-window-inactive 12
+

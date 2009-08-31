@@ -1,0 +1,69 @@
+#==============================================================
+# fvwm2rc.modules 
+#==============================================================
+
+#===================-
+# FvwmPager Settings
+#===================-
+
+Style FvwmPager NoTitle, Sticky, !Iconifiable, FixedSize, \
+    FixedPosition, WindowListSkip, CirculateSkip, !Handles, \
+    NeverFocus, Borderwidth 1, HandleWidth 1, RoundedCorners, \
+    StaysOnBottom
+
+# Pager Colorset
+Colorset 66 fg white, Noshape, RootTransparent, Tint #202020 65
+Colorset 62 fg white, Noshape, RootTransparent, Tint #ffffff 55
+Colorset 63 fg white, RootTransparent, Tint orange 80
+Colorset 64 fg white, Noshape, RootTransparent, Tint #000000 30
+Colorset 65 fg white, Noshape, RootTransparent, Tint orange 50
+
+DestroyModuleConfig FvwmPager: *
+*FvwmPager: BorderWidth 0
+*FvwmPager: HandleWidth 0
+*FvwmPager: Geometry 220x40-3+3
+#*FvwmPager: MiniIcons
+*FvwmPager: Colorset * 66
+*FvwmPager: HilightColorset * 62
+*FvwmPager: BalloonColorset * 64
+*FvwmPager: WindowColorsets 65 63 
+*FvwmPager: Font none
+*FvwmPager: SmallFont none
+*FvwmPager: Balloons All
+*FvwmPager: BalloonFont "shadow=1 0 SE:xft:Fixed:pixelsize=12:encoding=iso10646-1:antialias=1"
+*FvwmPager: BalloonYOffset +2
+*FvwmPager: BalloonBorderWidth 1
+*FvwmPager: UseSkipList
+*FvwmPager: MoveThreshold 0
+*FvwmPager: SolidSeparators
+*FvwmPager: WindowBorderWidth 1
+
+#========================================
+# Setting FvwmProxy and FvwmIdent Modules
+#========================================
+
+DestroyModuleConfig FvwmProxy: *
+*FvwmProxy: Colorset 5
+*FvwmProxy: Font "shadow=1 0 SE:xft:Verdana:bold:size=9:minspace=True:encoding=iso10464-1:anitalising=1"
+*FvwmProxy: ProxyMove true
+*FvwmProxy: ShowMiniIcons true
+*FvwmProxy: EnterSelect true
+
+DestroyModuleConfig FvwmIdent: *
+*FvwmIdent: Back black
+*FvwmIdent: Fore #ffffff
+*FvwmIdent: Font "SE:xft:Verdana:bold:pixelsize=10:minspace=True:encoding=10646-1"
+
+
+#====================
+# Splash Screen style
+#===================
+
+*FvwmBanner: NoDecor
+*FvwmBanner: Pixmap images/splash.png
+*FvwmBanner: Timeout 3
+
+#-- FvwmEvent Module
+DestroyModuleConfig FvwmEvent: *
+*FvwmEvent: deiconify DeThumbnail 
+

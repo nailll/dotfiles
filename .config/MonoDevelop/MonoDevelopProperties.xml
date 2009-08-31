@@ -1,0 +1,183 @@
+﻿<MonoDevelopProperties version="2.0">
+  <Property key="CBinding.ParseSystemTags" value="True" />
+  <Property key="SharpDevelop.CodeCompletion.DataDirectory" value="/home/nailll/.config/MonoDevelop/CodeCompletionData" />
+  <Property key="Monodevelop.TaskList.ActiveView" value="MonoDevelop.Ide.Tasks.CommentTasksView" />
+  <Property key="MonoDevelop.Ide.AddinUpdater.UpdateSpanUnit" value="D" />
+  <Property key="EnableCodeCompletion" value="True" />
+  <Property key="MonoDevelop.ToolbarSize" value="SmallToolbar" />
+  <Property key="ShowInvalidLines" value="True" />
+  <Property key="AutoInsertMatchingBracket" value="False" />
+  <Property key="ChangeLogAddIn.VersionControlIntegration" value="True" />
+  <Property key="MonoDevelop.Ide.AddinUpdater.LastCheck" value="07/29/2009 20:54:33" />
+  <Property key="SharpDevelop.TaskList.ShowMessages" value="True" />
+  <Property key="MonoDevelop.Ide.AddinUpdater.CkeckForUpdates" value="True" />
+  <Property key="Monodevelop.ErrorListColumns" value="TRUE;TRUE;TRUE;TRUE;TRUE;TRUE" />
+  <Property key="UseViModes" value="False" />
+  <Property key="EnableSyntaxHighlighting" value="True" />
+  <Property key="Monodevelop.UserTasksHighPrioColor" value="rgb:0/0/0" />
+  <Property key="ShowTabs" value="False" />
+  <Property key="SharpDevelop.Services.DefaultParserService.BeforeCompileAction" value="SaveAllFiles" />
+  <Property key="ShowEolMarkers" value="False" />
+  <Property key="MonoDevelop.LogList.ShowMessages" value="True" />
+  <Property key="Monodevelop.CommentTasksColumns" value="TRUE;TRUE;TRUE;TRUE" />
+  <Property key="HighlightMatchingBracket" value="True" />
+  <Property key="IndentStyle" value="Smart" />
+  <Property key="SharpDevelop.ShowOutputWindowAtBuild" value="True" />
+  <Property key="SharpDevelop.LoadPrevProjectOnStartup" value="False" />
+  <Property key="Dialogs.NewFileDialog.LastSelectedCategory" value="Misc" />
+  <Property key="MonoDevelop.LogList.ShowErrors" value="True" />
+  <Property key="ColorScheme" value="Oblivion" />
+  <Property key="FontName" value="Terminus 12" />
+  <Property key="WelcomePage.ShowOnStartup" value="True" />
+  <Property key="SharpDevelop.Workbench.WorkbenchMemento">
+    <Property key="bounds" value="0, 0, 640, 480" />
+    <Property key="fullscreen" value="False" />
+    <Property key="windowState" value="Maximized" />
+    <Property key="layoutMemento">
+      <Property key="status">
+        <DockToolbarFrameStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <layout id="">
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Standard">
+              <visible>true</visible>
+              <dockedPosition offset="0" row="0" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Search">
+              <visible>true</visible>
+              <dockedPosition offset="453" row="0" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Build">
+              <visible>true</visible>
+              <dockedPosition offset="266" row="0" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Layout">
+              <visible>true</visible>
+              <dockedPosition offset="0" row="1" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Navigation">
+              <visible>true</visible>
+              <dockedPosition offset="139" row="1" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Debugger">
+              <visible>false</visible>
+              <dockedPosition offset="1136" row="0" placement="Top" />
+            </dockbar>
+          </layout>
+          <layout id="Edit.Default">
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Standard">
+              <visible>true</visible>
+              <dockedPosition offset="0" row="0" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Search">
+              <visible>true</visible>
+              <dockedPosition offset="410" row="0" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Build">
+              <visible>true</visible>
+              <dockedPosition offset="0" row="1" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Layout">
+              <visible>true</visible>
+              <dockedPosition offset="257" row="1" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Navigation">
+              <visible>true</visible>
+              <dockedPosition offset="404" row="1" placement="Top" />
+            </dockbar>
+            <dockbar id="/MonoDevelop/Ide/Toolbar/Debugger">
+              <visible>false</visible>
+              <dockedPosition offset="1136" row="0" placement="Top" />
+            </dockbar>
+          </layout>
+        </DockToolbarFrameStatus>
+      </Property>
+    </Property>
+  </Property>
+  <Property key="SharpDevelop.TaskList.ShowErrors" value="True" />
+  <Property key="MonoDevelop.DefaultFileFormat" value="MSBuild05" />
+  <Property key="SharpDevelop.CreateBackupCopy" value="False" />
+  <Property key="MonoDevelop.Core.FirstRun" value="False" />
+  <Property key="BlankLinesBetweenMembers" value="True" />
+  <Property key="MonoDevelop.Core.Gui.Dialogs.NewProjectDialog.AutoCreateProjectSubdir" value="False" />
+  <Property key="EditorFontType" value="UserSpecified" />
+  <Property key="GenerateDocumentComments" value="True" />
+  <Property key="MonoDevelop.Projects.Text.ConversionEncodings" value="" />
+  <Property key="MonoDevelop.Core.Gui.Dialog.TipOfTheDayView.ShowTipsAtStartup" value="False" />
+  <Property key="Author.Email" value="Email Address" />
+  <Property key="UnderlineErrors" value="True" />
+  <Property key="MonoDevelop.Core.LastRunVersion" value="1.9.1" />
+  <Property key="MonoDevelop.TextEditor.Document.Document.DefaultDocumentAggregatorProperties">
+    <Property key="AutoInsertCurlyBracket" value="True" />
+    <Property key="HighlightNewlines" value="False" />
+    <Property key="TabsToSpaces" value="False" />
+    <Property key="ShowVRuler" value="False" />
+    <Property key="HighlightTabs" value="False" />
+    <Property key="VRulerRow" value="80" />
+    <Property key="GtkSourceViewStyleScheme" value="classic" />
+    <Property key="ShowClassBrowser" value="True" />
+    <Property key="DefaultFont" value="__default_monospace" />
+    <Property key="EnableFolding" value="True" />
+    <Property key="TabIndent" value="4" />
+    <Property key="ShowBracketHighlight" value="True" />
+    <Property key="HighlightCurrentLine" value="True" />
+    <Property key="IndentStyle" value="Smart" />
+    <Property key="ShowLineNumbers" value="True" />
+    <Property key="AutoInsertTemplates" value="True" />
+    <Property key="EnableAutoCorrection" value="True" />
+    <Property key="WrapMode" value="None" />
+    <Property key="SyntaxHighlight" value="True" />
+    <Property key="EnableCodeCompletion" value="True" />
+    <Property key="HighlightSpaces" value="False" />
+  </Property>
+  <Property key="MonoDevelop.Core.Gui.Pads.CustomFont" value="Liberation Sans 9" />
+  <Property key="ControlLeftRightMode" value="MonoDevelop" />
+  <Property key="DefaultCommentFolding" value="True" />
+  <Property key="MonoDevelop.Ide.AddinUpdater.UpdateSpanValue" value="1" />
+  <Property key="DefaultRegionsFolding" value="False" />
+  <Property key="SharpDevelop.ShowTaskListAfterBuild" value="True" />
+  <Property key="EnableAutoCodeCompletion" value="True" />
+  <Property key="Dialogs.NewProjectDialog.LastSelectedCategory" value="C" />
+  <Property key="EnableQuickFinder" value="True" />
+  <Property key="Monodevelop.UserTasksNormalPrioColor" value="rgb:0/0/0" />
+  <Property key="HighlightCaretLine" value="False" />
+  <Property key="WelcomePage.UpdateFromInternet" value="True" />
+  <Property key="CSharpBinding.FormattingProperties">
+    <Property key="GotoLabelIndentStyle" value="OneLess" />
+    <Property key="IndentCaseLabels" value="False" />
+  </Property>
+  <Property key="ShowRuler" value="False" />
+  <Property key="StartBlockOnSameLine" value="True" />
+  <Property key="TabIsReindent" value="False" />
+  <Property key="ShowSpaces" value="False" />
+  <Property key="MonoDevelop.Core.Gui.Pads.UseCustomFont" value="False" />
+  <Property key="MonoDevelop.GtkCore.ShowNonContainerWarning" value="True" />
+  <Property key="SharpDevelop.TaskList.ShowWarnings" value="False" />
+  <Property key="GenerateAdditionalComments" value="True" />
+  <Property key="SharpDevelop.UI.SelectStyleOptions">
+    <Property key="MonoDevelop.Core.Gui.FileScout.ShowHidden" value="False" />
+  </Property>
+  <Property key="MonoDevelop.Core.Gui.FileScout.ShowHidden" value="False" />
+  <Property key="MonoDevelop.LogList.ShowWarnings" value="True" />
+  <Property key="ElseOnClosing" value="True" />
+  <Property key="MonoDevelop.FileSelector.LastPath" value="/home/nailll/Desktop/banshee-1-1.5.0/src/Core/Banshee.Core" />
+  <Property key="MonoDevelop.LogList.ShowDebug" value="True" />
+  <Property key="SharpDevelop.LoadDocumentProperties" value="True" />
+  <Property key="MonoDevelop.CodeCompletion.DataDirectory" value="/home/nailll/.config/MonoDevelop/CodeCompletionData" />
+  <Property key="Monodevelop.TaskListTokens" value="FIXME:2;TODO:1;HACK:1;UNDONE:0" />
+  <Property key="Author.Name" value="Full Name" />
+  <Property key="ShowFoldMargin" value="True" />
+  <Property key="Monodevelop.UserTasksLowPrioColor" value="rgb:0/0/0" />
+  <Property key="MonoDevelop.Core.Gui.Dialogs.NewProjectDialog.DefaultPath" value="/home/nailll" />
+  <Property key="CBinding.ParseLocalVariables" value="True" />
+  <Property key="MonoDevelop.Core.Gui.ProjectBrowser.ShowExtensions" value="True" />
+  <Property key="EnableSemanticHighlighting" value="True" />
+  <Property key="UseFullyQualifiedNames" value="True" />
+  <Property key="ShowLineNumberMargin" value="True" />
+  <Property key="TabsToSpaces" value="False" />
+  <Property key="Author.Copyright" value="Full Name" />
+  <Property key="XmlEditor.AddIn.Options">
+    <Property key="AutoCompleteElements" value="True" />
+    <Property key="ShowSchemaAnnotation" value="True" />
+  </Property>
+  <Property key="MonoDevelop.Core.Gui.EnableDocumentSwitchDialog" value="True" />
+  <Property key="MonoDevelop.GtkCore.AutoSwitchGuiLayout" value="False" />
+</MonoDevelopProperties>

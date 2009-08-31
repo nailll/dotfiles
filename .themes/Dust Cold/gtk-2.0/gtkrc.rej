@@ -1,0 +1,17 @@
+***************
+*** 657,663 ****
+  widget_class "*.ETree.ECanvas"    style "murrine-treeview-header"
+  
+  # Firefox isn't nice to dark themes, so unset the dark stuff.
+- widget "MozillaGtkWidget*Toolbar*"	style "murrine-default"
+  #widget "MozillaGtkWidget*Frame*"	style "murrine-default"
+  
+  # Thunderbird too. But since Thunderbird uses the same theming engine as FF2,
+--- 656,662 ----
+  widget_class "*.ETree.ECanvas"    style "murrine-treeview-header"
+  
+  # Firefox isn't nice to dark themes, so unset the dark stuff.
++ widget "MozillaGtkWidget*Toolbar*"	style "murrine-toolbar-item"
+  #widget "MozillaGtkWidget*Frame*"	style "murrine-default"
+  
+  # Thunderbird too. But since Thunderbird uses the same theming engine as FF2,

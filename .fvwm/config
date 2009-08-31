@@ -1,0 +1,24 @@
+#===========================================
+# Theme by Na!llL (based on theme by Gulivert)
+# Display 1024x768 
+# 05.08.2004 / 01:36
+# gnailll@gmail.com
+#===========================================
+
+#=======================-
+# Reading Configurations
+#=======================-
+
+Read fvwm2rc.environment
+Read fvwm2rc.fonts
+Read fvwm2rc.modules
+Read fvwm2rc.start
+Read fvwm2rc.exit
+Read fvwm2rc.functions
+Read fvwm2rc.cursors
+Read fvwm2rc.applications
+Read fvwm2rc.bindings
+Read fvwm2rc.menu
+Read fvwm2rc.decorations
+Read fvwm2rc.desktop
+

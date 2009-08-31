@@ -1,0 +1,136 @@
+#===============================================================
+# fvwm2rc.bindings
+#===============================================================
+
+#===============-
+# Mouse Bindings
+#===============-
+
+#### Root Menus
+Mouse 1     R       A   -
+Mouse 3     R       A   Menu MenuFvwmRoot
+Mouse 2     R       A   WindowList NoCurrentDeskTitle
+
+#### Titlebar Buttons
+Mouse 1     1       A   Menu MenuFvwmWindowOps
+Mouse 3     1       A   Menu MenuFvwmwindowOps
+Mouse 1     6       A   Thumbnail
+Mouse 1     4       A   Maximize 
+Mouse 1     2       A   Close
+
+#### Window, Frame, Side, Others
+Mouse 1     FS      A   ResizeFunc
+Mouse 1     T       A   userTitleClick
+Mouse 2     W       C   ResizeFunc
+Mouse 1     W       M   MoveFunc
+Mouse 3     W       M   ResizeFunc
+#Mouse 3     TSIF    A   RaiseLower
+#Mouse 3     T       A   Menu MenuFvwmWindowOps
+Mouse 3 	T 	A	WindowShade
+
+AddToFunc ResizeFunc "M" Resize
+AddToFunc MoveFunc   "M" Move
+
+DestroyFunc userTitleClick
+AddToFunc userTitleClick
++	"DoubleClick"	Maximize
++	"Motion"	Move
+#### Icons Binding
+Mouse 1     I       A   Iconify
+Mouse 2     I       A   Move
+
+#### Wheel Toggle Shade
+#Mouse 4     T       N   WindowShade True
+#Mouse 5     T       N   WindowShade False
+#Mouse 4     TW      M   WindowShade True
+#Mouse 5     TW      M   WindowShade False
+
+#### Mouse Gesture Binding
+Mouse 1     R       A   StrokeFunc
+Mouse 1     W       CM  StrokeFunc
+
+
+#=================-
+# KEYBOARD SECTION 
+#=================-
+
+Key Tab A M Windowlist Root c c NoCurrentDeskTitle NoGeometry CurrentAtEnd !Icons MaxLabelWidth 50 SelectOnRelease Alt_L
+
+DestroyFunc WindowListFunc
+AddToFunc WindowListFunc
++ I Iconify off
++ I FlipFocus
++ I Raise
+
+#### Windows Key Root Menu
+#Key Super_L  A  A   Menu MenuFvwmRoot
+#Key Super_R  A  A   Menu MenuFvwmRoot
+
+#### Traditional Bindings
+Key F4 A        M   Pick Close
+Key F2 A	    M   Exec exec ~/bin/launcher.sh
+#Key X  A        M   Pick Destroy
+
+### Window Operations
+Key Return A	M	Maximize
+Key Escape A	M	Thumbnail	
+Key ~      A	M	WindowShade
+Key d	   A	M	ShowDesktopFunc
+
+#### Fvwm Special Bindings
+Key F3 A        M   Module FvwmConsole -terminal xterm
+Key I  A        M   Pick Module FvwmIdent
+Key R  A        CM  Restart
+Key F4 A        CM  Quit
+Key F12 A	M  Exec exec xkill
+#### Applications Bindings
+Key F1 	A	M   	Exec exec ~/bin/terminal.sh
+Key k	A	M	Exec exec konqueror
+Key f 	A	M	Exec exec firefox
+Key t 	A	M 	Exec exec thunderbird
+Key a 	A	M	Exec exec amarok
+Key v 	A	M	Exec exec gvim
+
+#### Pager Bindings
+Key Right A CM GoToPage +1p  0p
+Key Left  A CM GoToPage -1p  0p
+Key Up    A CM GoToPage  0p -1p
+Key Down  A CM GoToPage  0
+
+Key 1	A M GoToPage 0  0p 
+Key 2	A M GoToPage 1	0p 
+Key 3	A M GoToPage 2	0p 
+Key 4	A M GoToPage 3	0p 
+Key 5	A M GoToPage 4  0p 
+Key 6	A M GoToPage 5	0p 
+Key 7	A M GoToPage 6	0p 
+#Key 8	A M GoToPage 7	0p 
+
+#==========================
+# Activiting Mouse Gestures
+#==========================
+
+Stroke N159   0 W CM Pick Close
+Stroke N951   0 W CM Thumbnail
+Stroke N258   0 W CM Maximize
+
+#### Pager Gestures
+Stroke N456 0 R N    GotoPage +1p  0p
+Stroke N654 0 R N    GotoPage -1p  0p
+#Stroke N258 0 R N    GotoPage  0p -1p
+#Stroke N852 0 R N    GotoPage  0p +1p
+#Stroke N753 0 R N    GotoPage +1p +1p
+#Stroke N357 0 R N    GotoPage -1p -1p
+#Stroke N159 0 R N    GotoPage +1p -1p
+#Stroke N951 0 R N    GotoPage -1  +1p
+
+#### Launch Applications 
+#Stroke N98741 0 R N Exec exec /opt/firefox/firefox
+#Stroke N12369 0 R N Exec exec thunderbird
+#Stroke N789852 0 R N Exec exec gnome-terminal
+#Stroke N9874123 0 R N Exec exec gedit ~/.fvwm/.fvwm2rc
+
+#### Restart
+#Stroke N789632147 0 R N Restart
+
+

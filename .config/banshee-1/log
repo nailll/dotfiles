@@ -1,0 +1,376 @@
+exec -a banshee-1 mono  /usr/lib/banshee-1/Banshee.exe   --redirect-log --play-enqueued
+
+[Info  23:25:46.807] Running Banshee 1.4.3: [source-tarball (linux-gnu, i686) @ 2009-05-02 22:31:39 CEST]
+[Warn  23:25:48.736] Cannot connect to NetworkManager - An available, working network connection will be assumed
+[Warn  23:25:49.149] Caught an exception - No support GNOME Settings Daemon could be reached. (in `Banshee.MultimediaKeys')
+  at Banshee.MultimediaKeys.MultimediaKeysService.Banshee.ServiceStack.IExtensionService.Initialize () [0x00000] 
+  at Banshee.ServiceStack.ServiceManager.StartExtension (Mono.Addins.TypeExtensionNode node) [0x00000] 
+[Warn  23:25:49.150] Extension `Banshee.MultimediaKeys.MultimediaKeysService' not started: No support GNOME Settings Daemon could be reached.
+[Warn  23:25:49.368] Caught an exception - No support GNOME Settings Daemon could be reached. (in `Banshee.MultimediaKeys')
+  at Banshee.MultimediaKeys.MultimediaKeysService.Banshee.ServiceStack.IExtensionService.Initialize () [0x00000] 
+  at Banshee.ServiceStack.ServiceManager.StartExtension (Mono.Addins.TypeExtensionNode node) [0x00000] 
+[Warn  23:25:49.368] Extension `Banshee.MultimediaKeys.MultimediaKeysService' not started: No support GNOME Settings Daemon could be reached.
+[Info  23:25:49.370] All services are started 2.23883s
+[Info  23:25:49.929] GNOME screensaver service not found
+[Info  23:25:50.506] nereid Client Started
+System.ApplicationException: Could not find org.freedesktop.Avahi
+  at Mono.Zeroconf.Providers.AvahiDBus.DBusManager.Initialize () [0x00000] 
+  at Mono.Zeroconf.Providers.AvahiDBus.ZeroconfProvider.Initialize () [0x00000] 
+  at Mono.Zeroconf.Providers.ProviderFactory.GetProviders () [0x00000] 
+System.DllNotFoundException: libnss_mdns-0.2.so
+  at (wrapper managed-to-native) Mono.Zeroconf.Providers.Bonjour.Native:DNSServiceCreateConnection (Mono.Zeroconf.Providers.Bonjour.ServiceRef&)
+  at Mono.Zeroconf.Providers.Bonjour.Zeroconf.Initialize () [0x00000] 
+  at Mono.Zeroconf.Providers.Bonjour.ZeroconfProvider.Initialize () [0x00000] 
+  at Mono.Zeroconf.Providers.ProviderFactory.GetProviders () [0x00000] 
+[Warn  23:25:53.587] Failed to start DAAP client - No Zeroconf providers could be found or initialized. Necessary daemon may not be running. (in `Mono.Zeroconf')
+  at Mono.Zeroconf.Providers.ProviderFactory.GetProviders () [0x00000] 
+  at Mono.Zeroconf.Providers.ProviderFactory.get_DefaultProvider () [0x00000] 
+  at Mono.Zeroconf.Providers.ProviderFactory.get_SelectedProvider () [0x00000] 
+  at Mono.Zeroconf.ServiceBrowser..ctor () [0x00000] 
+  at Daap.ServiceLocator.Start () [0x00000] 
+  at Banshee.Daap.DaapService.DelayedInitializeTimeout () [0x00000] 
+[Warn  23:25:56.418] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.418] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.419] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.419] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.419] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.419] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.420] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.420] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.421] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.421] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.421] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.421] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.425] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.425] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.426] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.426] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.444] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.444] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.446] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.446] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.448] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:25:56.449] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Info  23:25:58.211] Sync calculated for Music Library: to add: 597 items, remove 0 items; sync_src.cacheid = 81, to_add.cacheid = 89, to_remove.cacheid = 97
+Sync calculated for Podcasts: to add: 0 items, remove 0 items; sync_src.cacheid = 101, to_add.cacheid = 105, to_remove.cacheid = 113
+
+
+(Banshee:3576): Gtk-CRITICAL **: gtk_style_detach: assertion `style->attach_count > 0' failed
+
+(Banshee:3576): Gdk-CRITICAL **: gdk_x11_atom_to_xatom_for_display: assertion `atom != GDK_NONE' failed
+[Warn  23:28:51.105] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.105] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.106] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.106] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.106] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.106] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.107] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.107] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.108] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.108] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.108] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.108] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.109] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.109] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.109] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.109] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.110] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.110] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.110] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.110] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.111] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:28:51.111] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Info  23:28:54.375] Sync calculated for Music Library: to add: 895 items, remove 0 items; sync_src.cacheid = 113, to_add.cacheid = 198, to_remove.cacheid = 202
+Sync calculated for Podcasts: to add: 0 items, remove 0 items; sync_src.cacheid = 210, to_add.cacheid = 258, to_remove.cacheid = 266
+
+** Message: don't know how to handle audio/mpeg, mpegversion=(int)1, mpegaudioversion=(int)1, layer=(int)3, rate=(int)44100, channels=(int)2, parsed=(boolean)true
+** Message: don't know how to handle audio/mpeg, mpegversion=(int)1, mpegaudioversion=(int)1, layer=(int)3, rate=(int)44100, channels=(int)2, parsed=(boolean)true
+[Warn  23:35:46.570] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.570] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.571] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.571] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.571] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.571] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.572] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.572] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.572] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.572] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.573] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.573] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.573] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.573] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.574] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.574] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.574] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.574] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.575] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.575] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.575] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Warn  23:35:46.575] Caught an exception - unrecognized token: "'5 " (in `Mono.Data.SqliteClient')
+  at Mono.Data.SqliteClient.SqliteCommand.GetNextStatement (IntPtr pzStart, System.IntPtr& pzTail, System.IntPtr& pStmt) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteReader (CommandBehavior behavior, Boolean want_results, System.Int32& rows_affected) [0x00000] 
+  at Mono.Data.SqliteClient.SqliteCommand.ExecuteNonQuery () [0x00000] 
+  at Hyena.Data.Sqlite.HyenaSqliteCommand.Execute (Hyena.Data.Sqlite.HyenaSqliteConnection hconnection, Mono.Data.SqliteClient.SqliteConnection connection) [0x00000] 
+[Info  23:35:49.927] Sync calculated for Music Library: to add: 895 items, remove 0 items; sync_src.cacheid = 266, to_add.cacheid = 270, to_remove.cacheid = 274
+Sync calculated for Podcasts: to add: 0 items, remove 0 items; sync_src.cacheid = 282, to_add.cacheid = 460, to_remove.cacheid = 468
+

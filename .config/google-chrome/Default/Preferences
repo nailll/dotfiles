@@ -1,0 +1,43 @@
+{
+   "browser": {
+      "clear_data": {
+         "passwords": true,
+         "time_period": 3
+      }
+   },
+   "countryid_at_install": -1,
+   "default_search_provider": {
+      "id": "2",
+      "name": "Google",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "settings": {
+
+      }
+   },
+   "homepage": "about:linux-splash",
+   "homepage_is_newtabpage": false,
+   "ntp": {
+      "most_visited_blacklist": {
+
+      },
+      "pinned_urls": {
+
+      }
+   },
+   "profile": {
+      "exited_cleanly": true,
+      "id": "not-signed-in",
+      "name": "",
+      "nickname": ""
+   },
+   "session": {
+      "urls_to_restore_on_startup": [  ]
+   }
+}

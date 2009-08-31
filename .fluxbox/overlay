@@ -1,0 +1,9 @@
+.font:			dejavu sans-9
+menu.frame.font:	dejavu sans-8
+menu.title.font:	dejavu sans-9:bold
+toolbar.clock.font:				dejavu sans-8:bold
+toolbar.workspace.font:				dejavu sans-8:bold
+toolbar.iconbar.focused.font:			dejavu sans-8:bold
+toolbar.iconbar.unfocused.font:			dejavu sans-8
+window.font:		dejavu sans-9:bold
+toolbar.font:		dejavu sans-9

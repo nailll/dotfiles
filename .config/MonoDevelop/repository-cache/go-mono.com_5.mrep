@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>go-mono.com</Name>
+  <Url>http://go-mono.com/md/2.0/root.mrep</Url>
+  <Addin>
+    <Url>MonoDevelop.GtkCore.GtkSharp.2.10_2.10.3.26.mpack</Url>
+    <Addin>
+      <Id>GtkCore.GtkSharp.2.10</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>GTK# 2.10 Compilation Support</Name>
+      <Version>2.10.3.26</Version>
+      <BaseVersion />
+      <Author>Lluis Sanchez</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://www.monodevelop.com</Url>
+      <Description>Allows building applications which target GTK# 2.10</Description>
+      <Category>GTK</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>GtkCore</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.GtkCore.GtkSharp.2.4_2.4.3.26.mpack</Url>
+    <Addin>
+      <Id>GtkCore.GtkSharp.2.4</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>GTK# 2.4 Compilation Support</Name>
+      <Version>2.4.3.26</Version>
+      <BaseVersion />
+      <Author>Lluis Sanchez</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://www.monodevelop.com</Url>
+      <Description>Allows building applications which target GTK# 2.4</Description>
+      <Category>GTK</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>GtkCore</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.GtkCore.GtkSharp.2.6_2.6.0.26.mpack</Url>
+    <Addin>
+      <Id>GtkCore.GtkSharp.2.6</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>GTK# 2.6 Compilation Support</Name>
+      <Version>2.6.0.26</Version>
+      <BaseVersion />
+      <Author>Lluis Sanchez</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://www.monodevelop.com</Url>
+      <Description>Allows building applications which target GTK# 2.6</Description>
+      <Category>GTK</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>GtkCore</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.GtkCore.GtkSharp.2.8_2.8.3.26.mpack</Url>
+    <Addin>
+      <Id>GtkCore.GtkSharp.2.8</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>GTK# 2.8 Compilation Support</Name>
+      <Version>2.8.3.26</Version>
+      <BaseVersion />
+      <Author>Lluis Sanchez</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://www.monodevelop.com</Url>
+      <Description>Allows building applications which target GTK# 2.8</Description>
+      <Category>GTK</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>GtkCore</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.OpenOfficeSamples_2.0.mpack</Url>
+    <Addin>
+      <Id>OpenOfficeSamples</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>OpenOffice Automation Samples</Name>
+      <Version>2.0</Version>
+      <BaseVersion />
+      <Author>Michael Hutchinson</Author>
+      <Copyright>LGPL 2.1</Copyright>
+      <Url>http://www.monodevelop.com/</Url>
+      <Description>Samples for automating OpenOffice using Mono.</Description>
+      <Category>Templates</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>CSharpBinding</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.TextTemplating_2.0.1.mpack</Url>
+    <Addin>
+      <Id>TextTemplating</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Text Templating</Name>
+      <Version>2.0.1</Version>
+      <BaseVersion />
+      <Author>Michael Hutchinson</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url>http://monodevelop.com</Url>
+      <Description>Support for editing and running T4 text templates.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Core.Gui</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Components</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Projects</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.AspNet.Mvc_2.0.5.mpack</Url>
+    <Addin>
+      <Id>AspNet.Mvc</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>ASP.NET MVC Support</Name>
+      <Version>2.0.5</Version>
+      <BaseVersion />
+      <Author>Michael Hutchinson</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>http://monodevelop.com/</Url>
+      <Description>Support for ASP.NET MVC projects.</Description>
+      <Category>Web Development</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Core.Gui</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Projects</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Projects.Gui</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>XmlEditor</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>AspNet</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>2.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>TextTemplating</AddinId>
+          <Version>2.0.1</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+    </Addin>
+  </Addin>
+</Repository>

@@ -1,0 +1,57 @@
+# FVWM-Crystal version
+
+# What colorset numbers do we use?
+SetEnv cs-window-inactive "9"
+SetEnv cs-window-active "10"
+
+# Setup colorsets
+Colorset $[cs-window-inactive] \
+Foreground "#545454", Background "#000000", \
+Hilight "#646464", Shadow "#000000", \
+Tint "black" 10, RootTransparent
+
+Colorset $[cs-window-active] \
+Foreground "white", Background "#f7c72f", \
+Hilight "#969696", Shadow "#000000", \
+Tint "dark" 70, RootTransparent
+
+DestroyDecor recreate WindowDecoration
+AddToDecor WindowDecoration
+
++ TitleStyle InActive Colorset $[cs-window-inactive]
++ TitleStyle Active Colorset $[cs-window-active]
++ TitleStyle CenterJustified
++ TitleStyle -- flat
++ TitleStyle Height 20
+
+#+ BorderStyle -- HiddenHandles
++ BorderStyle -- Flat
+
+#+ ButtonStyle 1 Pixmap $./window-close.png
+
++ ButtonStyle 2 Pixmap $./window-close.png
+
++ ButtonStyle 1 MiniIcon
+
++ ButtonStyle 4 Pixmap $./window-maximize.png
+
++ ButtonStyle 6 Pixmap $./window-options.png
+
+#+ ButtonStyle 8 Pixmap $./window-arrows.png
+
++ ButtonStyle All -- UseTitleStyle
++ ButtonStyle All -- flat
+
+Style * HandleWidth 5, BorderWidth 5
+Style * Colorset                $[cs-window-inactive], \
+        BorderColorset          $[cs-window-inactive], \
+        HilightColorset         $[cs-window-active], \
+        HilightBorderColorset   $[cs-window-active]
+
+Style * Font "shadow=1 0 SE:xft:Verdana:pixelsize=12:Bold:encoding=iso10646-1"
+
+Style * UseDecor WindowDecoration
+
+# Setup button functions
+Include components/decorations/Buttons-fvwm-crystal-MiniIcon
+

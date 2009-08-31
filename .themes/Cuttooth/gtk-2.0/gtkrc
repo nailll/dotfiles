@@ -1,0 +1,239 @@
+# Rezlooks-Cuttooth
+# By quandar <http://deletefactory.net/quandar>
+
+style "rezlooks-default"
+{
+  GtkButton::default_border = { 0, 0, 0, 0 }
+  GtkButton::default_outside_border = { 0, 0, 0, 0 }
+  GtkRange::trough_border = 0
+
+  GtkWidget::focus_padding = 1
+
+  GtkPaned::handle_size = 6
+
+  GtkRange::slider_width = 15
+  GtkRange::stepper_size = 15 # toolbar arrows
+  GtkScrollbar::min_slider_length = 30
+  GtkCheckButton::indicator_size = 12
+  GtkMenuBar::internal-padding = 0
+
+  GtkTreeView::expander_size = 14
+  GtkExpander::expander_size = 16
+
+  xthickness = 1
+  ythickness = 1
+
+  fg[NORMAL]        = "#262626" # very dark brown
+  fg[PRELIGHT]      = "#262626" # text on buttons (hover)
+  fg[ACTIVE]        = "#262626" # text on unfocused tabs
+  fg[SELECTED]      = "#ffffff" # selected text on lists
+  fg[INSENSITIVE]   = "#b1b1b1" # greyed "unused" text
+
+  bg[NORMAL]		= "#ffffff" # entire background
+  bg[PRELIGHT]		= "#f3f3f3" # button prelights
+  bg[ACTIVE]		= "#f6f6f6" # selected taskbar items
+  bg[SELECTED]		= "#91946b" # ???
+  bg[INSENSITIVE]	= "#fafafa" # greyed buttons
+
+  base[NORMAL]		= "#ffffff" # window background
+  base[PRELIGHT]	= "#ffffff" # menubar outline colour
+  base[ACTIVE]		= "#cad181" # selected item background (out of focus)
+  base[SELECTED]	= "#cad181" # selected hilight,tab/slider background, & menu stripe
+  base[INSENSITIVE]	= "#e0e0e0" # greyed sliders
+
+  text[NORMAL]		= "#262626" # text in general
+  text[PRELIGHT]	= "#202020" # hover text (on buttons)
+  text[ACTIVE]		= "#ffffff" # greyed text out of use (on highlight)
+  text[SELECTED]	= "#ffffff" # selected text (on highlight)
+  text[INSENSITIVE]	= "#b1b1b1" # greyed text
+
+  engine "rezlooks" 
+  {
+	scrollbar_color   = "#91946b"
+    	menubarstyle      = 1     # 0 = flat, 1 = flat gradient, 2 = striped gradient
+   	 menuitemstyle     = 1      # 0 = flat, 1 = 3d-ish (gradient), 2 = 3d-ish (button)	
+	animation         = TRUE
+  }
+}
+
+
+style "rezlooks-progressbar" = "rezlooks-default"
+{
+  fg[PRELIGHT] = "#ffffff"
+  xthickness = 1
+  ythickness = 1
+
+}
+
+style "rezlooks-wide" = "rezlooks-default"
+{
+  xthickness = 2
+  ythickness = 2
+}
+
+style "rezlooks-button" = "rezlooks-default"
+{
+  xthickness = 2
+  ythickness = 2
+  bg[NORMAL] = "#f1f1f1"
+}
+
+style "rezlooks-notebook" = "rezlooks-wide"
+{
+  bg[NORMAL]   = "#ffffff" # inner window background colour
+  bg[ACTIVE]   = "#f1f1f1" # out of focus tabs
+  bg[SELECTED] = "#cad181"
+}
+
+
+style "rezlooks-tasklist" = "rezlooks-default"
+{
+  xthickness = 5
+  ythickness = 0
+}
+
+style "rezlooks-menu" = "rezlooks-default"
+{
+  bg[NORMAL] = "#ffffff"
+}
+
+style "rezlooks-menu-item" = "rezlooks-default"
+{
+  xthickness = 2
+  ythickness = 3
+  bg[SELECTED] = "#3d3d3a"
+  fg[PRELIGHT] = "#cad181"
+  text[PRELIGHT] = "#cad181"
+  font_name = "HeldustryFTVBasic Demi 6"
+}
+
+style "rezlooks-tree" = "rezlooks-default"
+{
+  xthickness = 2
+  ythickness = 2
+  GtkTreeView::odd_row_color = "#ffffff"
+  GtkTreeView::even_row_color = "#f1f1f1"
+}
+
+style "evolution-hack" = "rezlooks-default"
+{
+        bg[ACTIVE]   = "#96b9d5"
+        bg[SELECTED] = "#6798cb"
+        fg[ACTIVE]   = "#000000"
+        fg[SELECTED] = "#ffffff"
+}
+
+style "rezlooks-frame-title" = "rezlooks-default"
+{
+  fg[NORMAL] = "#404040"
+}
+
+style "rezlooks-panel" = "rezlooks-default"
+{
+  xthickness = 3
+  ythickness = 3
+}
+
+style "rezlooks-tooltips" = "rezlooks-default"
+{
+  xthickness = 4
+  ythickness = 4
+  bg[NORMAL] = { 1.0,1.0,0.75 }
+}
+
+style "rezlooks-combo" = "rezlooks-default"
+{
+  xthickness = 1
+  ythickness = 2
+}
+
+style "metacity-frame"
+{
+  # Normal base color
+  #bg[NORMAL]  = "#bbbbbb"
+
+  # Unfocused title background color
+  #bg[INSENSITIVE]  = { 0.8, 0.8, 0.8 }
+
+  # Unfocused title text color
+  #fg[INSENSITIVE]  = { 1.55, 1.55, 1.55 }
+
+  # Focused icon color
+  #fg[NORMAL]  = { 0.2, 0.2, 0.2 }
+
+  # Focused title background color
+  bg[SELECTED]  = "#ff0080"
+
+  # Focused title text color
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "menubar"		
+{
+  fg[NORMAL] = "#ffffff"
+  text[NORMAL] = "#ffffff"
+  bg[PRELIGHT] = "#5a5a5a"
+  bg[NORMAL] = "#2f2f2c"
+  fg[PRELIGHT] = "#cad181"
+  fg[ACTIVE] = "#404040"
+  fg[INSENSITIVE] = "#c9ddec"
+  text[PRELIGHT] = "#c9ddec"
+
+xthickness			= 1
+ythickness			= 2
+font_name = "HeldustryFTVBasic Demi 6"
+}
+
+style "panel"
+{
+  xthickness = 0
+  ythickness = 0
+  engine "pixmap" {}
+}
+
+
+# widget styles
+class "GtkWidget" style "rezlooks-default"
+class "GtkButton" style "rezlooks-button"
+class "GtkCombo"  style "rezlooks-button"
+class "GtkRange"  style "rezlooks-wide"
+class "GtkFrame"  style "rezlooks-wide"
+class "GtkMenu"   style "rezlooks-menu"
+class "GtkEntry"  style "rezlooks-button"
+class "GtkMenuItem"    style "rezlooks-menu-item"
+class "GtkStatusbar"   style "rezlooks-wide"
+class "GtkNotebook"    style "rezlooks-notebook"
+class "GtkProgressBar" style "rezlooks-progressbar"
+
+class "MetaFrames" style "metacity-frame"
+widget_class "*MenuItem.*" style "rezlooks-menu-item"
+
+class "GtkMenuBar*" 		     style "menubar"
+widget_class "*MenuBar.*" 	style "menubar"
+
+# combobox stuff
+widget_class "*.GtkComboBox.GtkButton" style "rezlooks-combo"
+widget_class "*.GtkCombo.GtkButton"    style "rezlooks-combo"
+
+# tooltips stuff
+widget_class "*.tooltips.*.GtkToggleButton" style "rezlooks-tasklist"
+widget "gtk-tooltips" style "rezlooks-tooltips"
+
+# treeview stuff
+widget_class "*.GtkTreeView.GtkButton" style "rezlooks-tree"
+widget_class "*.GtkCTree.GtkButton" style "rezlooks-tree"
+widget_class "*.GtkList.GtkButton" style "rezlooks-tree"
+widget_class "*.GtkCList.GtkButton" style "rezlooks-tree"
+widget_class "*.GtkFrame.GtkLabel" style "rezlooks-frame-title"
+
+# notebook stuff
+widget_class "*.GtkNotebook.*.GtkEventBox" style "rezlooks-notebook"
+widget_class "*.GtkNotebook.*.GtkViewport" style "rezlooks-notebook"
+
+# evolution
+widget_class "*GtkCTree*" style "evolution-hack"
+widget_class "*GtkList*" style "evolution-hack"
+widget_class "*GtkCList*" style "evolution-hack"
+widget_class "*.ETree.*" style "evolution-hack"
+
+widget_class "*Panel*GtkButton" style "panel"

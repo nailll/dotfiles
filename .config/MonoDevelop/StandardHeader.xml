@@ -1,0 +1,5 @@
+﻿<StandardHeader version="1.1" generateComments="True" emitStandardHeader="True"><Header> ${FileName} created with MonoDevelop
+ User: ${User} at ${Time} ${Date}
+
+ To change standard headers go to Edit-&gt;Preferences-&gt;Coding-&gt;Standard Headers
+</Header></StandardHeader>

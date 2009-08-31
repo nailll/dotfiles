@@ -1,0 +1,13 @@
+<driconf>
+  <device screen="0" driver="i915">
+    <application name="Default">
+            <option name="vblank_mode" value="0" />
+      </application>
+  </device>
+  <device screen="0" driver="intel">
+    <application name="Default">
+            <option name="vblank_mode" value="0" />
+      </application>
+  </device>
+</driconf>
+

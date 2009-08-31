@@ -1,0 +1,19 @@
+# Industrial decor
+# Written by: Maciej Delmanowski <harnir@post.pl>
+# Based on Gnome/Metacity theme
+
+SetEnv Decoration-Name "Industrial"
+SetEnv Decoration-Author "Maciej Delmanowski <harnir@post.pl>"
+
+# What colorsets we use?
+Read $./colorsets
+
+# Colorsets
+Colorset $[cs-window-activeborder] bg "black"
+Colorset $[cs-window-inactiveborder] bg "black"
+Colorset $[cs-window-active] fg "white", hi "white", sh "gray", fgsh "black"
+Colorset $[cs-window-inactive] fg "#bcbcbc", fgsh "#f6f6f6"
+
+# Original decoration
+Read $./decoration-fvwm-crystal
+

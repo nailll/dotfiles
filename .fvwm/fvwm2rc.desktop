@@ -1,0 +1,34 @@
+#-- Desktop Settings 
+DeskTopSize 4x1
+IgnoreModifiers L25
+SnapAttraction 0
+EdgeScroll 0 0
+EdgeResistance 300 300
+EdgeThickness 1
+ClickTime 250
+MoveThreshold 1
+OpaqueMoveSize 50000
+HideGeometryWindow Always
+BugOpts FlickeringMoveWorkaround True
+SnapGrid 1 1
+ColormapFocus FollowsFocus
+EwmBaseStruts 0 0 0 0
+
+Style * ClickToFocus
+Style * MouseFocusClickRaises
+Style * ClickToFocusDoesntPassClick
+Style * DecorateTransient
+Style * SmartPlacement
+Style * WindowShadeSteps 0
+Style * ResizeOpaque
+#Style * Button 2, Button 6, Button 4
+#Style * Button 1
+#Style * GrabFocusOff
+#Style * IconBox 3 3 10 $[vp.height], IconFill t l
+#Style * MinOverlapPercentPlacement
+#Style * !SloppyFocus # окно удерживает фокус при уходе указателя мыши
+#Style * FPReleaseFocus, !AllowMaximizeFixedSize
+#Style * NoIcon, NoIconTitle 
+Style * MWMFunctions, MWMDecor, OLDecor
+
+

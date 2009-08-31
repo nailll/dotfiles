@@ -1,0 +1,24 @@
+# Clear theme
+
+SetEnv Decoration-Name "Clear: Blue"
+SetEnv Decoration-Author "ravbc"
+
+# What colorsets we use?
+Read $./colorsets
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Colorsets
+
+Colorset $[cs-window-inactive] \
+Foreground rgb:99/99/99, Background rgb:33/33/33, \
+DGradient 60 2 rgb:00/00/00 50 rgb:33/33/33 50 rgb:99/99/99, \
+Hilight rgb:99/99/99, Shadow rgb:66/66/66, Tint
+
+Colorset $[cs-window-active] \
+Foreground rgb:ff/ff/ff, Background rgb:27/37/93, DGradient 40 rgb:22/0f/c7 rgb:07/03/22, \
+Hilight rgb:87/97/cc, Shadow rgb:41/69/e1, Tint
+
+# Decoration is set in separate file, so it can be easily changed for all
+# colorsets at once
+Read $./decoration
+

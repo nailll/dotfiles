@@ -1,0 +1,26 @@
+# icon theme
+#gtk-icon-theme-name = "gnome-wise"
+gtk-icon-theme-name = "gperfection2"
+
+# menu settings
+gtk-menu-popup-delay = 0
+gtk-menu-popdown-delay = 10
+gtk-menu-images = 1
+
+# toolbar settings
+gtk-toolbar-style   = GTK_TOOLBAR_ICONS  # icons only
+#gtk-toolbar-style   = GTK_TOOLBAR_TEXT  	# text only
+#gtk-toolbar-style   = GTK_TOOLBAR_BOTH 	# icons and text (default)
+#gtk-toolbar-style   = GTK_TOOLBAR_BOTH_HORIZ # Icons and text
+gtk-toolbar-icon-size = GTK_ICON_SIZE_SMALL_TOOLBAR  # small icons
+
+gtk-button-images = 0
+
+# font settings
+gtk-xft-antialias = 1
+gtk-xft-dpi = 96
+gtk-xft-hinting = 1
+#gtk-xft-hintstyle = hintfull
+gtk-xft-hintstyle = hintslight
+gtk-xft-rgba = rgb
+

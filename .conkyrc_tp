@@ -1,0 +1,101 @@
+# Use Xft?
+use_xft yes
+xftfont cure:size=7
+
+# Update interval in seconds
+update_interval 1
+
+# This is the number of times Conky will update before quitting.
+# Set to zero to run forever.
+total_run_times 0
+
+# Create own window instead of using desktop (required in nautilus)
+own_window  yes
+own_window_transparent no
+own_window_type override
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager 
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# Minimum size of text area
+minimum_size 280 5
+maximum_width 107
+
+# Draw shades?
+draw_shades no
+
+# Draw outlines?
+draw_outline no
+
+# Draw borders around text
+draw_borders yes
+
+# Stippled borders?
+stippled_borders 0
+
+# border margins
+border_margin 5
+
+# border width
+border_width 1
+
+# Default colors and also border colors
+default_color 303030
+#default_shade_color white
+#default_outline_color black
+own_window_colour 262524
+
+# Text alignment, other possible values are commented
+alignment tl
+
+# Gap between borders of screen and text
+# same thing as passing -x at command line
+gap_x 168
+gap_y 60
+
+# Subtract file system buffers from used memory?
+no_buffers yes
+
+# set to yes if you want all text to be in uppercase
+uppercase no
+
+# number of cpu samples to average
+# set to 1 to disable averaging
+cpu_avg_samples 2
+
+# number of net samples to average
+# set to 1 to disable averaging
+net_avg_samples 2
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+
+# Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer right
+
+# Colors
+color0 eab93d    #name
+color1 a4a4a4    #value
+color2 ee6363    #red
+color3 786a47    #bar
+
+#${color0}CPU:${alignr}${color1}${execi 30 sensors | grep 'temp1:' | awk '{print $2}' | sed 's/\+//' | sed 's/\.0//'}
+
+TEXT
+${color0}AC:${alignr}${color1}${if_existing /sys/devices/platform/smapi/ac_connected 1}connected${endif}${if_existing /sys/devices/platform/smapi/ac_connected 0}${color2}unplugged${endif}
+${color0}Battery:${alignr}${color1}${if_existing /sys/devices/platform/smapi/BAT0/state discharging}dis${endif}${if_existing /sys/devices/platform/smapi/BAT0/state idle}idle${endif}${if_existing /sys/devices/platform/smapi/BAT0/state charging}charging${endif}${if_existing /sys/devices/platform/smapi/BAT0/state none}${color2}N/A${endif}
+${if_existing /sys/devices/platform/smapi/BAT0/installed 1}${color3}${battery_bar 20,105 BAT0}${voffset 6}${offset -64}${color1}${font cure:size=12}${battery_percent}%$font
+${voffset -12}${color0}LBAT:${alignr}${color1}${acpitemp 4}°C
+${color0}RBAT:${alignr}${color1}${acpitemp 6}°C${endif}${if_existing /sys/devices/platform/smapi/BAT0/installed 0}${color3}${battery_bar 20,105 BAT0}${voffset 6}${offset -64}${color1}${font cure:size=12}N/A$font
+${voffset -12}${color0}LBAT:${alignr}${color1}N/A
+${color0}RBAT:${alignr}${color1}N/A${endif}
+
+${color0}CPU:${alignr}${color1}${acpitemp 0}°C
+${color0}GPU:${alignr}${color1}${acpitemp 3}°C
+${color0}HDAPS:${alignr}${color1}${acpitemp 1}°C
+${color0}PCMCIA:${alignr}${color1}${acpitemp 2}°C
+${color0}FAN:${alignr}${color1}${acpifan} RPM
+
+${color0}Governor:
+${color1}${execi 5 cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor}${alignr}${freq_dyn_g}GHz${font size=4}

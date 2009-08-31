@@ -1,0 +1,18 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>CrossOver</Name>
+    <Directory>.directory</Directory>
+    <DirectoryDir>/home/nailll/.cxoffice/desktopdata/cxoffice-0/cxmenu/xdg-applications/CrossOver</DirectoryDir>
+    <AppDir>/home/nailll/.cxoffice/desktopdata/cxoffice-0/cxmenu/xdg-applications/CrossOver</AppDir>
+    <Include>
+      <Filename>Install+Windows+Software.desktop</Filename>
+      <Filename>Configuration.desktop</Filename>
+      <Filename>Documentation.desktop</Filename>
+      <Filename>Terminate+Windows+Applications.desktop</Filename>
+      <Filename>Run+a+Windows+Command.desktop</Filename>
+      <Filename>Uninstall.desktop</Filename>
+    </Include>
+  </Menu>
+</Menu>

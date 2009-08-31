@@ -1,0 +1,28 @@
+AddtoFunc InitFunction
+#+ I Module FvwmBanner
+
+#===============
+# fvwm2rc.start
+#===============
+
+AddToFunc StartFunction
+#+ I Module FvwmAuto 0 -mfocus 
+#+ I Module FvwmAutohide -menter enter_handler
++ I Module FvwmPager * 
++ I Module FvwmEvent
++ I Test (Restart) All (Iconic) Test (f $[FVWM_USERDIR]/icon.tmp.$[w.id].png) \
+	WindowStyle IconOverride, Icon $[FVWM_USERDIR]/icon.tmp.$[w.id].png
++ I Module FvwmTransset
+#+ I Module FvwmAnimate
+#+ I Module FvwmScript
+#+ I Module FvwmCommandS
+#+ I Module FvwmProxy
+#+ I Module FvwmTaskbar
+#+ I Module FvwmButtons -g 1012x24+5+5 FvwmTaskBar
+#+ I Module FvwmButtons -g 150x50-5-5 FvwmClockBar
+
+#=======================
+# Executing Programs 
+#=======================
++ I Test (Init) Exec exec ~/.fvwm/startup.sh
+

@@ -1,0 +1,66 @@
+# Industrial decor
+# Written by: Maciej Delmanowski <harnir@post.pl>
+# Based on Gnome/Metacity theme
+
+# Decoration
+DestroyDecor recreate Industrial
+AddToDecor Industrial
+
++ ButtonStyle All - Clear
+
++ ButtonStyle 1 \
+	Active (Pixmap $./close-active.png) \
+	Inactive (Pixmap $./close-inactive.png)
+Style * NoButton 1
+
++ ButtonStyle 2 \
+	Active (Pixmap $./close-active.png) \
+	Inactive (Pixmap $./close-inactive.png)
+Style * Button 2
+
++ ButtonStyle 3 MiniIcon
+Style * Button 3
+
++ ButtonStyle 4 \
+	Active (Pixmap $./maximize-active.png) \
+	Inactive (Pixmap $./maximize-inactive.png)
+Style * Button 4
+
+Style * NoButton 5
+
++ ButtonStyle 6 \
+	Active (Pixmap $./options-crystal-active.png) \
+	Inactive (Pixmap $./options-crystal-inactive.png)
+Style * Button 6
+
+Style * NoButton 7
+
++ ButtonStyle 8 \
+	Active (Pixmap $./arrows-active.png) \
+	Inactive (Pixmap $./arrows-inactive.png)
+Style * NoButton 8
+
+Style * NoButton 9
+
+Style * NoButton 0
+
++ ButtonStyle All -- flat usetitlestyle
++ TitleStyle AllActive (Colorset $[cs-window-active]) AllInactive (Colorset $[cs-window-inactive]) -- flat
++ TitleStyle AllActive TiledPixmap $./title-active.png -- Flat
++ TitleStyle AllInActive Solid "#f6f6f6" -- Flat
++ TitleStyle Centered Height 21 -- flat
+
+Style * HilightBorderColorset $[cs-window-activeborder], \
+	BorderColorset $[cs-window-inactiveborder], \
+	HilightColorset $[cs-window-active], \
+	Colorset $[cs-window-inactive], \
+	BorderWidth 1, !Handles, HandleWidth 1
+
+Style * Font shadow="1 1":"xft:Verdana:pixelsize=12:Bold"
+
+Style * UseDecor Industrial
+
+
+# Mouse bindings
+Read $./fvwm-crystal-button-setup
+

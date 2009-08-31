@@ -1,0 +1,38 @@
+################################################
+# Panels:
+################################################
+
+# Note: Uncommenting means to delete the "#" at the beginning of a line. Commenting out means to add a "#" at the beginning of a line. The "#" tells the theme wether to ignore the line or not.
+
+style "theme-panel"  # This section is for customized gnome-panels.
+{
+
+# The following two lines add gradient panel backgrounds. You may choose only one! Delete or comment out both to have regular flat gnome-panels, or when using any panel size larger than 28px.
+bg_pixmap[NORMAL]				= "/Panels/panel-bg28.png"  # Light gradient panel.
+#bg_pixmap[NORMAL]				= "/Panels/panel-bg-dark28.png"  # Dark gradient panel.
+
+# Uncomment the following lines when using dark panels! Note: Menus will remain the same.
+#	bg[SELECTED] = "#4C4C4C"  # Makes selected items dark.
+#	bg[NORMAL]   = "#3c3c3c"  # Makes panel background dark.
+#	bg[PRELIGHT] = "#3c3c3c"  # Makes panel button prelight dark.
+#	bg[ACTIVE]   = "#333333"  # Makes pressed buttons dark.
+#	fg[NORMAL]   = @base_color  # Makes panel text light.
+#	fg[PRELIGHT] = lighter (@selected_bg_color)  # Makes prelighted text colored.
+#	fg[SELECTED] = lighter (@selected_bg_color)  # Makes prelighted text colored.
+#	fg[ACTIVE]   = lighter (@selected_bg_color)  # Makes prelighted text colored.
+}
+
+
+# Panels. Do not change.
+widget "*PanelWidget*" 					style "theme-panel"
+widget "*PanelApplet*" 					style "theme-panel"
+widget "*fast-user-switch*"				style "theme-panel"
+class "PanelApp*" 					style "theme-panel"
+class "PanelToplevel*" 					style "theme-panel"
+widget_class "*Mail*" 					style "theme-panel"
+widget_class "*notif*" 					style "theme-panel"
+widget_class "*Notif*" 					style "theme-panel"
+
+# XFCE panel theming (disabled by default, due to xfce not having consistent panel sizes)
+#widget "*Xfce*Panel*" style "theme-panel"
+#class "*Xfce*Panel*" style "theme-panel"

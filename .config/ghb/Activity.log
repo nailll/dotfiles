@@ -1,0 +1,132 @@
+[19:37:49] lingui: Handbrake Version: 0.9.3 (2008112300)
+[19:37:49] hb_init: checking cpu count
+[19:37:49] hb_init: starting libhb thread
+[19:37:49] hb_init: checking cpu count
+[19:37:49] hb_init: starting libhb thread
+[19:38:03] hb_scan: path=/home/nailll/Videos/A Beautiful Mind.avi, title_index=0
+[19:38:03] scan: trying to open with libdvdread
+[19:38:03] dvd: not a dvd - trying as a stream/file instead
+Input #0, avi, from '/home/nailll/Videos/A Beautiful Mind.avi':
+  Duration: 02:15:18.41, start: 0.000000, bitrate: 723 kb/s
+    Stream #0.0: Video: msmpeg4, yuv420p, 640x352, 23.98 tb(r)
+    Stream #0.1: Audio: mp3, 48000 Hz, stereo, s16, 128 kb/s
+[19:38:03] scan: decoding previews for title 1
+[19:38:04] scan: 10 previews, 640x352, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[19:38:04] scan: title (0) job->width:640, job->height:352
+[19:38:04] libhb: scan thread found 1 valid title(s)
+[19:38:51] hb_scan: path=/home/nailll/Videos/A Beautiful Mind.avi, title_index=1
+[19:38:51] scan: trying to open with libdvdread
+[19:38:51] dvd: not a dvd - trying as a stream/file instead
+Input #0, avi, from '/home/nailll/Videos/A Beautiful Mind.avi':
+  Duration: 02:15:18.41, start: 0.000000, bitrate: 723 kb/s
+    Stream #0.0: Video: msmpeg4, yuv420p, 640x352, 23.98 tb(r)
+    Stream #0.1: Audio: mp3, 48000 Hz, stereo, s16, 128 kb/s
+[19:38:51] scan: decoding previews for title 1
+[19:38:52] scan: 10 previews, 640x352, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[19:38:52] scan: title (0) job->width:640, job->height:352
+[19:38:52] libhb: scan thread found 1 valid title(s)
+[19:38:52] lingui: Modified Preset: Gaming Consoles->PSP
+[19:38:52] 1 job(s) to process
+[19:38:52] starting job
+[19:38:52] job configuration:
+[19:38:52]  * source
+[19:38:52]    + /home/nailll/Videos/A Beautiful Mind.avi
+[19:38:52]    + title 1, chapter(s) 1 to 1
+[19:38:52]    + container: avi
+[19:38:52]    + data rate: 723 kbps
+[19:38:52]  * destination
+[19:38:52]    + /home/nailll/Videos/A Beautiful Mind.mp4
+[19:38:52]    + container: MPEG-4 (.mp4 and .m4v)
+[19:38:52]      + chapter markers
+[19:38:52]  * video track
+[19:38:52]    + decoder: msmpeg4
+[19:38:52]    + frame rate: same as source (around 23.976 fps)
+[19:38:52]    + dimensions: 640 * 352 -> 368 * 208, crop 0/0/0/0
+[19:38:52]    + encoder: x264
+[19:38:52]      + bitrate: 1024 kbps, pass: 0
+[19:38:52]  * audio track 0
+[19:38:52]    + decoder: Unknown (MP3) (track 1, id 1)
+[19:38:52]    + mixdown: Stereo
+[19:38:52]    + encoder: faac
+[19:38:52]      + bitrate: 128 kbps, samplerate: 48000 Hz
+[19:38:52] dvd: not a dvd - trying as a stream/file instead
+[19:38:52] encx264: keyint-min: 24, keyint-max: 240
+x264 [info]: using cpu capabilities: MMX2 Cache64
+x264 [info]: profile Main, level 2.1
+[19:38:52] sync: expecting 194670 video frames
+[19:38:52] reader: first SCR 0
+[mp3 @ 0x9303e60]mdb:428, lastbuf:0 skipping granule 0
+[mp3 @ 0x9303e60]mdb:428, lastbuf:0 skipping granule 0
+[mp3 @ 0x9303e60]mdb:428, lastbuf:0 skipping granule 1
+[mp3 @ 0x9303e60]mdb:428, lastbuf:0 skipping granule 1
+[mp3 @ 0x9303e60]mdb:425, lastbuf:348 skipping granule 0
+[19:38:52] sync: adding 432 ms of silence to audio 0  start 38880, next 0
+[19:38:52] sync: audio 0 time went backwards 0 ms, dropped 1 frames (next 40320, current 40320)
+[19:39:29] reader: done. 1 scr changes
+[19:39:29] sync: got 424 frames, 194670 expected
+[19:39:29] work: average encoding speed for job is 0.000000 fps
+[19:39:29] msmpeg4-decoder done: 437 frames, 0 decoder errors, 0 drops
+[19:39:29] render: lost time: 0 (0 frames)
+[19:39:29] render: gained time: 0 (0 frames) (0 not accounted for)
+x264 [info]: slice I:2     Avg QP:10.47  size: 12772  PSNR Mean Y:75.71 U:76.36 V:76.44 Avg:75.92 Global:54.84
+x264 [info]: slice P:415   Avg QP:14.10  size:  6301  PSNR Mean Y:58.33 U:59.70 V:59.97 Avg:58.74 Global:46.06
+x264 [info]: mb I  I16..4: 56.2%  0.0% 43.8%
+x264 [info]: mb P  I16..4:  0.5%  0.0%  3.7%  P16..4: 20.2% 25.0% 20.3%  0.0%  0.0%    skip:30.3%
+x264 [info]: final ratefactor: 13.47
+x264 [info]: SSIM Mean Y:0.9911937
+x264 [info]: PSNR Mean Y:58.415 U:59.782 V:60.052 Avg:58.824 Global:46.081 kb/s:1214.57
+[19:39:30] mp3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[19:39:30] libhb: work result = 0
+[19:39:43] hb_scan: path=/home/nailll/Videos/A Beautiful Mind.avi, title_index=1
+[19:39:43] scan: trying to open with libdvdread
+[19:39:43] dvd: not a dvd - trying as a stream/file instead
+Input #0, avi, from '/home/nailll/Videos/A Beautiful Mind.avi':
+  Duration: 02:15:18.41, start: 0.000000, bitrate: 723 kb/s
+    Stream #0.0: Video: msmpeg4, yuv420p, 640x352, 23.98 tb(r)
+    Stream #0.1: Audio: mp3, 48000 Hz, stereo, s16, 128 kb/s
+[19:39:44] scan: decoding previews for title 1
+[19:39:44] scan: 10 previews, 640x352, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[19:39:44] scan: title (0) job->width:640, job->height:352
+[19:39:44] libhb: scan thread found 1 valid title(s)
+[19:39:44] lingui: Preset: Gaming Consoles->PSP
+[19:39:44] 1 job(s) to process
+[19:39:44] starting job
+[19:39:44] job configuration:
+[19:39:44]  * source
+[19:39:44]    + /home/nailll/Videos/A Beautiful Mind.avi
+[19:39:44]    + title 1, chapter(s) 1 to 1
+[19:39:44]    + container: avi
+[19:39:44]    + data rate: 723 kbps
+[19:39:44]  * destination
+[19:39:44]    + /home/nailll/Videos/A Beautiful Mind.mp4
+[19:39:44]    + container: MPEG-4 (.mp4 and .m4v)
+[19:39:44]      + chapter markers
+[19:39:44]  * video track
+[19:39:44]    + decoder: msmpeg4
+[19:39:44]    + frame rate: same as source (around 23.976 fps)
+[19:39:44]    + dimensions: 640 * 352 -> 368 * 208, crop 0/0/0/0
+[19:39:44]    + encoder: FFmpeg
+[19:39:44]      + bitrate: 1024 kbps, pass: 0
+[19:39:44]  * audio track 0
+[19:39:44]    + decoder: Unknown (MP3) (track 1, id 1)
+[19:39:44]    + mixdown: Stereo
+[19:39:44]    + encoder: faac
+[19:39:44]      + bitrate: 128 kbps, samplerate: 48000 Hz
+[19:39:44] dvd: not a dvd - trying as a stream/file instead
+[19:39:44] sync: expecting 194670 video frames
+[19:39:44] reader: first SCR 0
+[mp3 @ 0x919c000]mdb:428, lastbuf:0 skipping granule 0
+[mp3 @ 0x919c000]mdb:428, lastbuf:0 skipping granule 0
+[mp3 @ 0x919c000]mdb:428, lastbuf:0 skipping granule 1
+[mp3 @ 0x919c000]mdb:428, lastbuf:0 skipping granule 1
+[mp3 @ 0x919c000]mdb:425, lastbuf:348 skipping granule 0
+[19:39:44] sync: adding 432 ms of silence to audio 0  start 38880, next 0
+[19:39:44] sync: audio 0 time went backwards 0 ms, dropped 1 frames (next 40320, current 40320)
+[20:18:19] reader: done. 1 scr changes
+[20:18:20] sync: got 194646 frames, 194670 expected
+[20:18:20] work: average encoding speed for job is 84.053581 fps
+[20:23:38] msmpeg4-decoder done: 194647 frames, 0 decoder errors, 0 drops
+[20:23:38] render: lost time: 0 (0 frames)
+[20:23:38] render: gained time: 0 (0 frames) (0 not accounted for)
+[20:23:38] mp3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[20:23:39] libhb: work result = 0

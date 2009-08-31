@@ -1,0 +1,7 @@
+SetEnv ThemeFont            "\"Shadow=1 0:xft:Dejavu Sans:size=8:antialising=1:encoding=iso10646-1\""
+SetEnv ThemeHeadFont        "\"Shadow=1 0:xft:Dejavu Sans:size=8:style=Bold:encoding=iso10646-1\""
+SetEnv ThemeMenuFont        "\"Shadow=1 0:xft:Dejavu Sans:style=Roman:size=7:encoding=iso10646-1\""
+SetEnv ThemeTitleFont       "\"Shadow=1 0:xft:Dejavu Sans:style=Bold:size=7:encoding=iso10646-1\""
+SetEnv ThemeClockFont       "\"Shadow=1 0:xft:Dejavu Sans:style=Bold:size=12:encoding=iso10646-1\""
+SetEnv ThemeWindowListFont  "\"Shadow=1 0:xft:Dejavu Sans:size=9:encoding=iso10646-1\""
+DefaultFont $[ThemeFont]

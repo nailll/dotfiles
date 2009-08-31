@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>AudioBitrate</key>
+		<string>128</string>
+		<key>AudioEncoder</key>
+		<string>faac</string>
+		<key>AudioList</key>
+		<array>
+			<dict>
+				<key>AudioBitrate</key>
+				<string>128</string>
+				<key>AudioEncoder</key>
+				<string>faac</string>
+				<key>AudioMixdown</key>
+				<string>dpl2</string>
+				<key>AudioSamplerate</key>
+				<string>48</string>
+				<key>AudioTrack</key>
+				<string>0</string>
+				<key>AudioTrackDRCSlider</key>
+				<real>1</real>
+				<key>AudioTrackDescription</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>AudioMixdown</key>
+		<string>stereo</string>
+		<key>AudioSamplerate</key>
+		<string>48</string>
+		<key>AudioTrack</key>
+		<string>0</string>
+		<key>AudioTrackDRCSlider</key>
+		<real>1</real>
+		<key>ChapterMarkers</key>
+		<true />
+		<key>Default</key>
+		<false />
+		<key>EncodeLogLocation</key>
+		<false />
+		<key>FileFormat</key>
+		<string>mp4</string>
+		<key>Folder</key>
+		<false />
+		<key>ModDimensions</key>
+		<true />
+		<key>Mp4HttpOptimize</key>
+		<false />
+		<key>Mp4LargeFile</key>
+		<false />
+		<key>Mp4iPodCompatible</key>
+		<false />
+		<key>PictureAutoCrop</key>
+		<true />
+		<key>PictureBottomCrop</key>
+		<integer>0</integer>
+		<key>PictureDeblock</key>
+		<integer>4</integer>
+		<key>PictureDecomb</key>
+		<false />
+		<key>PictureDeinterlace</key>
+		<string>none</string>
+		<key>PictureDenoise</key>
+		<string>none</string>
+		<key>PictureDetelecine</key>
+		<false />
+		<key>PictureHeight</key>
+		<integer>208</integer>
+		<key>PictureKeepRatio</key>
+		<true />
+		<key>PictureLeftCrop</key>
+		<integer>0</integer>
+		<key>PicturePAR</key>
+		<integer>0</integer>
+		<key>PictureRightCrop</key>
+		<integer>0</integer>
+		<key>PictureTopCrop</key>
+		<integer>0</integer>
+		<key>PictureWidth</key>
+		<integer>368</integer>
+		<key>PresetDescription</key>
+		<string>HandBrake&apos;s settings for the Sony PlayStation Portable.</string>
+		<key>PresetName</key>
+		<string>PSP</string>
+		<key>SourceAudioLang</key>
+		<string>und</string>
+		<key>Subtitles</key>
+		<string>none</string>
+		<key>SubtitlesForced</key>
+		<true />
+		<key>Type</key>
+		<integer>0</integer>
+		<key>UsesMaxPictureSettings</key>
+		<false />
+		<key>UsesPictureFilters</key>
+		<true />
+		<key>UsesPictureSettings</key>
+		<integer>1</integer>
+		<key>VideoAvgBitrate</key>
+		<integer>1024</integer>
+		<key>VideoEncoder</key>
+		<string>ffmpeg</string>
+		<key>VideoFramerate</key>
+		<string>source</string>
+		<key>VideoGrayScale</key>
+		<false />
+		<key>VideoQualitySlider</key>
+		<real>0.64709997177124023</real>
+		<key>VideoQualityType</key>
+		<integer>1</integer>
+		<key>VideoTargetSize</key>
+		<integer>700</integer>
+		<key>VideoTurboTwoPass</key>
+		<false />
+		<key>VideoTwoPass</key>
+		<false />
+		<key>activity_location</key>
+		<string>/home/nailll/.config/ghb/Activity.log</string>
+		<key>allow_tweaks</key>
+		<false />
+		<key>anamorphic</key>
+		<false />
+		<key>audio_list</key>
+		<array>
+			<dict>
+				<key>AudioBitrate</key>
+				<string>128</string>
+				<key>AudioEncoder</key>
+				<string>faac</string>
+				<key>AudioMixdown</key>
+				<string>stereo</string>
+				<key>AudioSamplerate</key>
+				<string>48</string>
+				<key>AudioTrack</key>
+				<string>0</string>
+				<key>AudioTrackDRCSlider</key>
+				<real>1</real>
+				<key>AudioTrackDescription</key>
+				<string>Unknown (MP3)</string>
+			</dict>
+		</array>
+		<key>autoscale</key>
+		<false />
+		<key>chapter_list</key>
+		<array>
+			<string>Chapter  1</string>
+		</array>
+		<key>chapters_in_destination</key>
+		<false />
+		<key>constant_rate_factor</key>
+		<true />
+		<key>default_source</key>
+		<string>/home/nailll/Videos/A Beautiful Mind.avi</string>
+		<key>destination</key>
+		<string>/home/nailll/Videos/A Beautiful Mind.mp4</string>
+		<key>destination_dir</key>
+		<string>/home/nailll/Videos</string>
+		<key>directqp</key>
+		<false />
+		<key>end_chapter</key>
+		<integer>1</integer>
+		<key>folder</key>
+		<string></string>
+		<key>hbfd</key>
+		<false />
+		<key>hbfd_feature</key>
+		<false />
+		<key>job_status</key>
+		<integer>3</integer>
+		<key>job_unique_id</key>
+		<integer>2</integer>
+		<key>nocheckvquality</key>
+		<false />
+		<key>noscale</key>
+		<false />
+		<key>preset</key>
+		<array>
+			<string>Gaming Consoles</string>
+			<string>PSP</string>
+		</array>
+		<key>preset_modified</key>
+		<false />
+		<key>preset_selection</key>
+		<array>
+			<string>Gaming Consoles</string>
+			<string>PSP</string>
+		</array>
+		<key>preset_type_folder</key>
+		<false />
+		<key>preset_type_normal</key>
+		<true />
+		<key>preview_frame</key>
+		<integer>1</integer>
+		<key>reduce_hd_preview</key>
+		<true />
+		<key>scale_height</key>
+		<integer>208</integer>
+		<key>scale_width</key>
+		<integer>368</integer>
+		<key>show_presets</key>
+		<true />
+		<key>source</key>
+		<string>/home/nailll/Videos/A Beautiful Mind.avi</string>
+		<key>source_height</key>
+		<integer>352</integer>
+		<key>source_width</key>
+		<integer>640</integer>
+		<key>start_chapter</key>
+		<integer>1</integer>
+		<key>title</key>
+		<string>1 - 02h15m18s</string>
+		<key>titlenum</key>
+		<integer>1</integer>
+		<key>tweak_PictureDecomb</key>
+		<string></string>
+		<key>tweak_PictureDetelecine</key>
+		<string></string>
+		<key>update_skip_version</key>
+		<integer>0</integer>
+		<key>use_source_name</key>
+		<true />
+		<key>version</key>
+		<string>0.1</string>
+		<key>volume_label</key>
+		<string>A Beautiful Mind</string>
+		<key>vquality_type_bitrate</key>
+		<true />
+		<key>vquality_type_constant</key>
+		<false />
+		<key>vquality_type_target</key>
+		<false />
+		<key>x264Option</key>
+		<string></string>
+		<key>x264_8x8dct</key>
+		<false />
+		<key>x264_analyse</key>
+		<string>some</string>
+		<key>x264_bframes</key>
+		<integer>0</integer>
+		<key>x264_bpyramid</key>
+		<false />
+		<key>x264_cabac</key>
+		<true />
+		<key>x264_deblock_alpha</key>
+		<integer>0</integer>
+		<key>x264_deblock_beta</key>
+		<integer>0</integer>
+		<key>x264_direct</key>
+		<string>spatial</string>
+		<key>x264_me</key>
+		<string>hex</string>
+		<key>x264_merange</key>
+		<integer>16</integer>
+		<key>x264_mixed_refs</key>
+		<false />
+		<key>x264_no_dct_decimate</key>
+		<false />
+		<key>x264_no_fast_pskip</key>
+		<false />
+		<key>x264_refs</key>
+		<integer>1</integer>
+		<key>x264_subme</key>
+		<string>6</string>
+		<key>x264_trellis</key>
+		<string>0</string>
+		<key>x264_weighted_bframes</key>
+		<false />
+	</dict>
+</array>
+</plist>

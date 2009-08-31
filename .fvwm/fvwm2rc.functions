@@ -1,0 +1,52 @@
+#=========================================================
+# fvwm2rc.functions
+#=========================================================
+
+AddtoFunc autohide
+ + I ThisWindow ($0) Deschedule $[w.id]
+ + I ThisWindow ($0) KeepRc ThisWindow (shaded) WindowShade off
+ + I TestRc (!Match) All ($0, !shaded) autohide_hide $1 $2
+
+AddtoFunc autohide_hide
+ + I Schedule $0 $[w.id] WindowShade $1
+ + I Schedule $0 $[w.id] Deschedule $[w.id]
+
+#===========================
+# Thumbnails
+#===========================
+
+SetEnv fvwm_icon_size 100
+
+DestroyFunc Thumbnail
+AddToFunc Thumbnail
++ I Raise
++ I SetEnv Icon-$[w.id] $[w.iconfile]
++ I ThisWindow (!Shaded Iconifiable !Iconic) PipeRead \
+    "xwd -silent -id $[w.id] | convert -scale $[fvwm_icon_size] -frame 0x0 \
+    -mattecolor black -quality 0 xwd:- png:$[FVWM_USERDIR]/icon.tmp.$[w.id].png \
+    && echo WindowStyle IconOverride, Icon $[FVWM_USERDIR]/icon.tmp.$[w.id].png \
+    || echo Nop"
++ I TestRc (Match) Test (f $[w.miniiconfile]) PipeRead "composite -geometry +3+14 \
+    $[w.miniiconfile] $[FVWM_USERDIR]/icon.tmp.$[w.id].png \
+    $[FVWM_USERDIR]/icon.tmp.$[w.id].png && echo Nop \
+    || echo Beep"
++ I Iconify
+
+DestroyFunc DeThumbnail
+AddToFunc DeThumbnail
++ I PipeRead "echo WindowStyle Icon \\$\\[Icon-$[w.id]\\]"
++ I UnsetEnv Icon-$[w.id]
++ I Exec exec rm -fr $[FVWM_USERDIR]/icon.tmp.$[w.id].png
+
+DestroyFunc ShowDesktopFunc
+AddToFunc   ShowDesktopFunc
++ I All (CurrentPage, Iconic, State 1) RestoreDesktopFunc
++ I TestRc (Match) Break
++ I All (CurrentPage, !Iconic, !State 1) ThisWindow State 1 True
++ I All (CurrentPage, !Iconic, State 1) Thumbnail
+
+DestroyFunc RestoreDesktopFunc
+AddToFunc   RestoreDesktopFunc
++ I All (CurrentPage, Iconic, State 1) Thumbnail
++ I All (CurrentPage, State 1) ThisWindow State 1 False
+

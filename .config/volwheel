@@ -1,0 +1,6 @@
+PCM
+urxvt -e 'alsamixer'
+2
+simple-blue
+/usr/share/volwheel/icons/volwheel.png
+0

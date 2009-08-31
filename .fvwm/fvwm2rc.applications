@@ -1,0 +1,70 @@
+# Use FvwmIdent to get an app's Class or Resource
+# (right-click on the app's titlebar and choose Information)
+# Using wildcards (*) is strongly discouraged!
+
+#====================-
+# Applications Styles
+#====================-
+Style ** EWMHMiniIconOverride, IconOverride, MiniIcon icons/48x48/none.png
+Style FvwmIdent MiniIcon icons/fvwmident48.png
+Style opera MiniIcon icons/48x48/opera.png
+Style Firefox-bin MiniIcon icons/48x48/firefox.png
+Style Thunderbird-bin MiniIcon icons/48x48/thunderbird.png
+Style Konqueror MiniIcon icons/48x48/file-manager.png
+Style xchat MiniIcon icons/48x48/xchat.png
+Style Gimp-2.3 MiniIcon icons/48x48/gimp.png
+Style Gimp MiniIcon icons/48x48/gimp.png
+Style gaim MiniIcon icons/48x48/gaim.png
+Style gFTP MiniIcon icons/gftp48.png
+Style Bluefish MiniIcon icons/bluefish48.png
+Style rxvt MiniIcon icons/48x48/terminal.png
+Style urxvt MiniIcon icons/48x48/terminal.png
+Style Konsole MiniIcon icons/48x48/terminal.png
+Style xclock !Handles, StaysOnBottom, Sticky, NoTitle, !Iconifiable, FixedSize, FixedPosition, WindowListSkip, NeverFocus 
+Style Gajim MiniIcon icons/48x48/gajim.png
+#Style mousepad MiniIcon icons/notepad48.png
+#Style leafpad MiniIcon icons/notepad48.png
+#Style gedit MiniIcon icons/notepad48.png
+#Style bbrun  
+Style run !Title
+Style gmpc MiniIcon icons/music48.png
+Style bantu MiniIcon icons/music48.png
+Style azureus MiniIcon icons/azureus48.png
+Style Bittorrent MiniIcon icons/azureus48.png
+#Style xfmedia MiniIcon icons/music48.png
+#Style Nautilus MiniIcon icons/home48.png
+#Style Thunar MiniIcon icons/home48.png
+Style easytag MiniIcon icons/easytag48.png
+Style acroread MiniIcon icons/48x48/acroread.png
+Style abiword MiniIcon icons/abiword48.png
+Style soffice.bin MiniIcon icons/48x48/ooo.png
+Style XTerm MiniIcon icons/48x48/terminal.png
+Style stalonetray Borders, !Handles, StaysOnBottom, Sticky, NoTitle, !Iconifiable, FixedSize, FixedPosition, WindowListSkip, NeverFocus
+Style psi MiniIcon icons/48x48/psi.png
+#Style gtodo MiniIcon icons/todo48.png
+#Style ROX-Filer MiniIcon icons/home48.png
+#Style evince MiniIcon icons/evince48.png
+#Style SWT MiniIcon icons/azureus48.png
+#Style Grip MiniIcon icons/grip48.png
+#Style Asunder MiniIcon icons/grip48.png
+#Style Acidrip MiniIcon icons/grip48.png
+#Style gcalctool MiniIcon icons/calc48.png
+Style xcalc MiniIcon icons/calc48.png
+Style realplay.bin MiniIcon icons/real48.png
+#Style vmware MiniIcon icons/vmware48.png
+#Style QEMU MiniIcon icons/vmware28.png
+Style FvwmConsole MiniIcon icons/fvwmconsole48.png
+Style MPlayer MiniIcon icons/48x48/mplayer.png
+#Style orage MiniIcon icons/calendar48.png
+Style inkscape MiniIcon icons/48x48/inkscape.png
+Style "OpenOffice.org 2.0" MiniIcon icons/48x48/ooo.png
+Style "OpenOffice.org 2.1" MiniIcon icons/48x48/ooo.png
+#Style gimmage MiniIcon icons/imageviewer48.png
+#Style winword.exe MiniIcon icons/winword48.png
+#Style excel.exe MiniIcon icons/excel48.png
+#Style powerpnt.exe MiniIcon icons/powerpoint48.png
+#Style xarchiver MiniIcon icons/xarchive48.png
+Style kcontrol MiniIcon icons/48x48/kde.png
+
+OOO_FORCE_DESKTOP="gnome"
+

@@ -1,0 +1,69 @@
+# Clear theme
+# Written by: Rafal Bisingier
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Window decoration settings
+DestroyDecor Clear
+AddToDecor Clear
+
++ TitleStyle InActive Colorset $[cs-window-inactive]
++ TitleStyle Active Colorset $[cs-window-active]
++ TitleStyle LeftJustified
++ TitleStyle -- flat
++ TitleStyle Height 20
+
++ BorderStyle -- HiddenHandles
++ BorderStyle -- Flat
+
++ ButtonStyle 1 Vector 22 23x23@4 28x23@1 48x43@1 65x23@1 70x23@1 \
+			70x28@1 52x48@1 70x65@1 70x70@1 65x70@1 \
+			48x52@1 28x70@1 23x70@1 23x65@1 43x48@1 \
+			23x28@1 23x23@1 8x8@4 88x8@1 88x88@1 8x88@1 8x8@1
+
++ ButtonStyle 2 Vector 22 23x23@4 28x23@1 48x43@1 65x23@1 70x23@1 \
+			70x28@1 52x48@1 70x65@1 70x70@1 65x70@1 \
+			48x52@1 28x70@1 23x70@1 23x65@1 43x48@1 \
+			23x28@1 23x23@1 8x8@4 88x8@1 88x88@1 8x88@1 8x8@1
+
++ ButtonStyle 4 Vector 18 43x23@4 50x23@1 50x43@1 70x43@1 70x50@1 \
+			50x50@1 50x70@1 43x70@1 43x50@1 23x50@1 \
+			23x43@1 43x43@1 43x23@1 \
+			8x8@4 88x8@1 88x88@1 8x88@1 8x8@1
+
++ ButtonStyle 6 Vector 15 23x23@4 70x23@1 \
+			48x26@4 70x50@1 50x50@1 50x70@1 48x70@1 \
+			48x50@1 23x50@1 48x26@1 \
+			8x8@4 88x8@1 88x88@1 8x88@1 8x8@1
+
++ ButtonStyle 8 Vector 13 20x35@4 40x18@1 40x58@1 20x35@1 52x35@4 \
+			72x55@1 52x75@1 52x35@1 \
+			8x8@4 88x8@1 88x88@1 8x88@1 8x8@1
+
++ ButtonStyle All -- UseTitleStyle
++ ButtonStyle All -- flat
+
+Style * Button 1
+Style * Button 2
+Style * NoButton 3
+Style * Button 4
+Style * NoButton 5
+Style * Button 6
+Style * NoButton 7
+Style * Button 8
+Style * NoButton 9
+Style * NoButton 0
+
+Style * HandleWidth 1, BorderWidth 1
+Style * Colorset                $[cs-window-inactive], \
+        BorderColorset          $[cs-window-inactive], \
+        HilightColorset         $[cs-window-active], \
+        HilightBorderColorset   $[cs-window-active]
+
+Style * Font "xft:Verdana-9:Bold"
+
+Style * UseDecor Clear
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Window title mouse bindings
+Read $./fvwm-crystal-button-setup
+
